@@ -1,5 +1,5 @@
 % ----------------------------------------------------------------
-%% Main script for a basic simulation framework with a double track vehcile model
+%% Main script for a basic simulation framework with a double track vehicle model
 %  authors: 
 %  rev. 1.0 Mattia Piccinini & Gastone Pietro Papini Rosati
 %  rev. 2.0 Edoardo Pagot
@@ -28,17 +28,35 @@ vehicle_data = getVehicleDataStruct();
 % pacejkaParam = loadPacejkaParam();
 
 % ----------------------------
-%% Define initial conditions for the simulation
+%% Define initial conditions for the simulation and the type of test
 % ----------------------------
+% Description:
+ % - the simulation time is increased: Tf = 120s for better plotting
+ % purposes
+ % - if test_type = 1 -> speed ramp test at constant steering angle (SpRT)
+ % - if test_type = 2 -> steer ramp test at constant speed (StRT)
+ % Parameters description for each test (trapezoidal profile): 
+ % - t1 = time at which the transient ends -> the desired
+ %           velocity is reached (PID controller);
+ % - t2 = time at which the ramp ends -> after t2 the
+ %           imposed velocity/steer remains constant up to Tf
+ % - acc_x = imposed longitudinal acceleration imposed during the
+ %           speed ramp test
+ % - steer_ang_slp = the gradient of the steering angle during steer ramp test is imposed equal
+ %           to 0.15 (in order to achive 15 deg of steer angle)
 V0 = 50/3.6; % Initial speed
 X0 = loadInitialConditions(V0);
 
-% ----------------------------
-%% Define the desired speed
-% ----------------------------
-V_des = 50/3.6; % Initial speed
+acc_x = 0.16; % low value [m/s^2]
+Vi = V0;
+Tf = 120;
+t1 = Tf/10;
+t2 = Tf - t1;
 
-% ----------------------------
+steer_ang_slp = 0.15;
+const_steer_angle = 10; % [deg]
+const_des_speed = 50/3.6; % [m/s]
+test_type = 1; % 1 = SpRT with const steer, 2 = StRT with const speed;
 %% Simulation parameters
 % ----------------------------
 simulationPars = getSimulationParams(); 

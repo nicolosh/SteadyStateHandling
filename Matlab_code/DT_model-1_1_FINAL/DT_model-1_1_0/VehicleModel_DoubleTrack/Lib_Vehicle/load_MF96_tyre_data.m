@@ -9,7 +9,7 @@
 
 
 %% Front
-
+%% Verrano cancellati !!!
 tyre_data_f.Fz0             = 4500; % Fz0            
 tyre_data_f.R0              = 0.327; % R0             
 tyre_data_f.pCx1            = 1.6411; % pCx1           
@@ -84,7 +84,9 @@ tyre_data_f.rVy2            = 0.053604; % rVy2
 tyre_data_f.rVy3            = -0.27568; % rVy3           
 tyre_data_f.rVy4            = 12.12; % rVy4           
 tyre_data_f.rVy5            = 1.9; % rVy5           
-tyre_data_f.rVy6            = -10.704; % rVy6           
+tyre_data_f.rVy6            = -10.704; % rVy6
+%% End of cancellation
+%%
 tyre_data_f.sSz1            = 0; %0.033372; % sSz1           
 tyre_data_f.sSz2            = 0; %0.004362; % sSz2           
 tyre_data_f.sSz3            = 0; %0.56742; % sSz3           
@@ -110,9 +112,7 @@ tyre_data_f.lambda__s       = 1; % lambda__s
 tyre_data_f.lambda__t       = 1; % lambda__t      
 tyre_data_f.lambda__xa      = 1; % lambda__xa     
 tyre_data_f.lambda__yk      = 1; % lambda__yk
-
-               
-
+            
 %% Rear 
 
 tyre_data_r.Fz0             = 4500; % Fz0            
@@ -189,7 +189,7 @@ tyre_data_r.rVy2            = 0.053604; % rVy2
 tyre_data_r.rVy3            = -0.27568; % rVy3           
 tyre_data_r.rVy4            = 12.12; % rVy4           
 tyre_data_r.rVy5            = 1.9; % rVy5           
-tyre_data_r.rVy6            = -10.704; % rVy6           
+tyre_data_r.rVy6            = -10.704; % rVy6  
 tyre_data_r.sSz1            = 0; %0.033372; % sSz1           
 tyre_data_r.sSz2            = 0; %0.004362; % sSz2           
 tyre_data_r.sSz3            = 0; %0.56742; % sSz3           
@@ -217,10 +217,12 @@ tyre_data_r.lambda__xa      = 1; % lambda__xa
 tyre_data_r.lambda__yk      = 1; % lambda__yk
                         
 
+
 %% Change to the Formula SAE data of the students
 
 % Load their data
-new_data = load('student_tyre_data.mat').tyre_coeffs;
+%new_data = load('student_tyre_data.mat').tyre_coeffs;
+new_data = load('tyre_Hoosier_B1464run30.mat').tyre_coeffs;
 
 % Change the names to match the destination model
 new_names = {
