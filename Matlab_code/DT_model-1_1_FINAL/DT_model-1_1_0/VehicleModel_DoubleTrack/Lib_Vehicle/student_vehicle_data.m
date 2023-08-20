@@ -19,11 +19,11 @@ new_vehicle.Jxu_r    =  0.3    ; % [kgm^2] rear unsprung mass cambering moment o
 new_vehicle.Jyu_r    =  0.3    ; % [kgm^2] rear unsprung mass pitching moment of inertia 
 new_vehicle.Jzu_r    =  0.5    ; % [kgm^2] rear unsprung mass yawing moment of inertia 
 new_vehicle.Jw_f     =  0.25   ; % [kgm^2] front wheel spin moment of inertia
-new_vehicle.Jw_f     =  0.25   ; % [kgm^2] rear wheel spin moment of inertia 
+new_vehicle.Jw_r     =  0.25   ; % [kgm^2] rear wheel spin moment of inertia 
 new_vehicle.W_f      =  1.260  ; %  [m]      front track width
 new_vehicle.W_r      =  1.210  ; %  [m]     rear track width
 new_vehicle.delta_f0 =  0      ; % [deg]  static front toe angle
-new_vehicle.delta_r0 =  0      ; % [deg] static rear toe angl
+new_vehicle.delta_r0 =  0      ; % [deg] static rear toe angle
 new_vehicle.gamma_f  = 0      ; % [deg] static front camber angle
 new_vehicle.gamma_r  = 0      ; % [deg] static rear camber angle
 
@@ -41,7 +41,7 @@ new_vehicle.Jr_f           = 30; % [kgm^2] front half roll inertia
 new_vehicle.Jr_r           = 30; % [kgm^2] rear half roll inertia
 new_vehicle.J_z            = 165; % [kgm^2]total yaw inertia
 new_vehicle.epsilon_roll_f = 0.05; %[-]front roll steer coefficient 
-new_vehicle.epsilon_roll_f = 0.1; %[-] rear roll steer coefficient
+new_vehicle.epsilon_roll_r = 0.1; %[-] rear roll steer coefficient
 
 
 %  Front left suspension hard points, rest configuration [X,Y,Z]=[mm,mm,mm]

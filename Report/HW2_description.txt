@@ -1,6 +1,6 @@
 The goal of this assignment is the analysis of the steady state behaviour of a F-SAE formula type car. Example data are provided via Matlab m-file. Using the vehicle dynamic model provided the data have two be adapted according to the provided file and the tyre data fitted in the previous assignment has to be used. 
 
-The vehicle model has to be used to simulate steady state tests such as steer ramp test at constant speed and or speed ramp test at constant steering angle. You have to derive the corresponding normalised axle characteristics, the handling diagram and compar the theoretical with the fitted steering gradients. Additionally the effect of suspension roll stiffness, camber and toe angle effect on steering characteristics have to be analysed. Optionally also the chassi stiffness cam be investigated
+The vehicle model has to be used to simulate steady state tests such as steer ramp test at constant speed and or speed ramp test at constant steering angle. You have to derive the corresponding normalised axle characteristics, the handling diagram and compar the theoretical with the fitted steering gradients. Additionally the effect of suspension roll stiffness, camber and toe angle effect on steering characteristics have to be analysed. Optionally also the chassis stiffness can be investigated
 
 What you have to do
 

@@ -778,11 +778,11 @@ function dataAnalysis(model_sim, vehicle_data, Ts, test_type)
 
      plot(alphaR,Fyr_norm, 'Color', 'cyan', 'LineWidth',2)
 
-     plot(alphaF,Fyf_norm, 'Color', 'brown','LineWidth',2)
+     plot(alphaF,Fyf_norm, 'Color', 'red','LineWidth',2)
 
      plot(alphaR,mu_r, '--', 'Color', 'cyan','LineWidth',2)
 
-     plot(alphaF,mu_f, '--', 'Color', 'brown', 'LineWidth',2)
+     plot(alphaF,mu_f, '--', 'Color', 'red', 'LineWidth',2)
 
      grid on
      legend({'$Fy_{r_{norm}}$','$Fy_{f_{norm}}$', '$Fy_{r_{static}}$', '$Fy_{f_{static}}$'})
@@ -943,11 +943,11 @@ function dataAnalysis(model_sim, vehicle_data, Ts, test_type)
 
          % 1) Kus (C) - diff
          kus_C_diff   = -(1/(L*tau_H*g)*(1./C_alpha_R - 1./C_alpha_F));
-         fprintf('Kus (C) diff = $\frac{\Delta_H}{da_y}$ = %f\n', kus_C_diff(i));
+         fprintf('Kus (C) diff = $\frac{\\Delta_H}{da_y}$ = %f\n', kus_C_diff(i));
 
          % 2) Kus (C) - fitted
          kus_C_fitted = -(1/(L*tau_H*g))*(1/C_alpha_R_fitted - 1/C_alpha_F_fitted);
-         fprintf('Kus (C) fitted = $\frac{\Delta_H}{da_y}$ = %f\n', kus_C_fitted);
+         fprintf('Kus (C) fitted = $\frac{\\Delta_H}{da_y}$ = %f\n', kus_C_fitted);
 
          % 3) Kus (K) - fitted
          % kus_K_fitted = -(m/(L*tau_H))*(Lf/KyR - Lr/KyF);
@@ -1083,7 +1083,7 @@ function dataAnalysis(model_sim, vehicle_data, Ts, test_type)
      % plot(Ay/g, y, 'Color',color('green'),'LineWidth',2);
      plot(Ay/g, y, 'color', [1 1 0],'LineWidth',1);
      plot(Ay(1:cut_index_end)/g, y(1:cut_index_end), '--', 'Color',color('red'),'LineWidth',2);
-     plot(x_cut_NL, y_NL, '--', 'color',[1 1.5 1.2] , 'LineWidth',2);
+     plot(x_cut_NL, y_NL, '--', 'color',[1 0.9 0.4] , 'LineWidth',2);
 
      title('Handling diagram')
      ylabel('$-\Delta_{\Alpha}$ [rad]')

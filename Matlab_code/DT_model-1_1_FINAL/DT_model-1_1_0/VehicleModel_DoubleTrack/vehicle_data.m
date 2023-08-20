@@ -19,11 +19,11 @@ Jxu_r    =  0.3    ; % [kgm^2] rear unsprung mass cambering moment of inertia
 Jyu_r    =  0.3    ; % [kgm^2] rear unsprung mass pitching moment of inertia 
 Jzu_r    =  0.5    ; % [kgm^2] rear unsprung mass yawing moment of inertia 
 Jw_f     =  0.25   ; % [kgm^2] front wheel spin moment of inertia
-Jw_f     =  0.25   ; % [kgm^2] rear wheel spin moment of inertia 
+Jw_r     =  0.25   ; % [kgm^2] rear wheel spin moment of inertia 
 W_f      =  1.260  ; %  [m]      front track width
 W_r      =  1.210  ; %  [m]     rear track width
 delta_f0 =  0      ; % [deg]  static front toe angle
-delta_r0 =  0      ; % [deg] static rear toe angl
+delta_r0 =  0      ; % [deg] static rear toe angle
 gamma_f  = 0      ; % [deg] static front camber angle
 gamm_f   = 0      ; % [deg] static rear camber angle
 
@@ -41,7 +41,7 @@ Jr_f           = 30; % [kgm^2] front half roll inertia
 Jr_r           = 30; % [kgm^2] rear half roll inertia
 J_z            = 165; % [kgm^2]total yaw inertia
 epsilon_roll_f = 0.05; %[-]front roll steer coefficient 
-epsilon_roll_f = 0.1; %[-] rear roll steer coefficient
+epsilon_roll_r = 0.1; %[-] rear roll steer coefficient
 
 
 %  Front left suspension hard points, rest configuration [X,Y,Z]=[mm,mm,mm]

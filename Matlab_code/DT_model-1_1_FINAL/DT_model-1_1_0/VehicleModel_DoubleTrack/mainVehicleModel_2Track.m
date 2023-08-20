@@ -66,7 +66,7 @@ deltaH_fin = 25; % [deg]
 % steer_ang_slp = 0.15;
 const_steer_angle = 15; % [deg]
 const_des_speed = 70/3.6; % [m/s]
-test_type = 2; % 1 = SpRT with const steer, 2 = StRT with const speed;
+test_type = 1; % 1 = SpRT with const steer, 2 = StRT with const speed;
 
 if(test_type==1)
      proportional=0.0149079382355932;
@@ -74,16 +74,16 @@ if(test_type==1)
      derivative=0.206343298118274;
      filter_coeff=2.92564365922541;
 
-     V0 = 5/3.6; % Initial speed
-     X0 = loadInitialConditions(V0);
+     Vi = 5/3.6; % Initial speed
+     X0 = loadInitialConditions(Vi);
  elseif(test_type==2)
      proportional=0.0135879338655985;
      integral=0.00180259308311908;
      derivative=-0.000759112239547322;
      filter_coeff=17.8997691747157;
 
-     V0 = 30/3.6; % Initial speed
-     X0 = loadInitialConditions(V0);
+     Vi = 30/3.6; % Initial speed
+     X0 = loadInitialConditions(Vi);
  end
 
 % ----------------------------
