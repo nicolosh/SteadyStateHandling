@@ -20,7 +20,7 @@ function toeEffect(vehicle_data,Ts,Tf)
          vehicle_data.front_wheel.delta_f0 = toe_vec(1,i);
          assignin('base', "vehicle_data", vehicle_data);
          model_sim = sim('Vehicle_Model_2Track');
-         fprintf('Starting simulation with toe angle $\Delta_{0} = %.3f$\n', toe_vec(1,i));
+         fprintf('Starting simulation with toe angle $\delta_{0} = %.3f$\n', toe_vec(1,i));
 
          m  = vehicle_data.vehicle.m;
          Lf = vehicle_data.vehicle.Lf;
@@ -55,7 +55,6 @@ function toeEffect(vehicle_data,Ts,Tf)
 
          delta_alpha(:,i) = alphaR(:,i) - alphaF(:,i);
          Ay(:,i) = diff(v(1:end))/dt + Omega(2:end).*u(2:end);
-         %fprintf('Size of Ay: %4.2f - size of v = %4.2f - size of omega = %4.2f - size of u = %4.2f \n',size(Ay),size(diff(v(1:end))/dt),size(Omega),size(u));
          fprintf('End of the simulation #%.1f / 5 \n',i);
      end
 
@@ -63,9 +62,8 @@ function toeEffect(vehicle_data,Ts,Tf)
      figure('Name','Normalized lateral forces for different toe angles','NumberTitle','off'), clf
      hold on
      for i = 1:5
-         %plot(alphaR_dt(:,i),Fyr_dt_norm(:,i),'LineWidth',2, 'DisplayName',("$Y_r(a_y)$ with toe angle $\delta_0$ =  " + toe_vec(1,i)), 'Color', colorMap(i,:));
-         plot(alphaF(:,i),Fyf_norm(:,i),'LineWidth',2, 'DisplayName',("$Y_f(a_y)$ with toe angle $\Delta_0$ =  " + toe_vec(1,i)), 'Color', colorMap(i,:));
-         title({'Normalized lateral forces as function of $\Delta_{0}$', ' '})
+         plot(alphaF(:,i),Fyf_norm(:,i),'LineWidth',2, 'DisplayName',("$Y_f(a_y)$ with toe angle $\delta_0$ =  " + toe_vec(1,i)), 'Color', colorMap(i,:));
+         title({'Normalized lateral forces as function of $\delta_{0}$', ' '})
          grid on
          ylabel('$\frac{Fy_r}{Fzr_0}$, $\frac{Fy_f}{Fzf_0}$ [-]')
          xlabel('$\alpha_{R}$, $\alpha_{F}$ [deg]')
@@ -76,10 +74,10 @@ function toeEffect(vehicle_data,Ts,Tf)
      figure('Name','Handling diagram for different toe angles','NumberTitle','off'), clf
      hold on
      for i = 1:5
-         plot(Ay(:,i)./g, -delta_alpha(2:end,i), 'LineWidth',2, 'DisplayName',("$-\Delta_{\alpha}(a_y)$ with $\Delta_0$ =  " + toe_vec(1,i)), 'Color', colorMap(i,:));
-         title({'Handling diagram as function of $\Delta_0$', ' '})
+         plot(Ay(:,i)./g, -delta_alpha(2:end,i), 'LineWidth',2, 'DisplayName',("$-\delta_{\alpha}(a_y)$ with $\delta_0$ =  " + toe_vec(1,i)), 'Color', colorMap(i,:));
+         title({'Handling diagram as function of $\delta_0$', ' '})
          grid on
-         ylabel('$-\Delta_{\alpha}$ [deg]')
+         ylabel('$-\delta_{\alpha}$ [deg]')
          xlabel('$\{a_y}{g}$ [-]')
          legend('Location','best')
      end

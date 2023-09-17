@@ -15,7 +15,7 @@ function vehicle_data = getVehicleDataStruct()
 tire.Vlow_long                 = 8;    % [m/s] speed threshold to use low-speed corrections in the tire longit slip and force models
 tire.Vlow_lat                  = 8;    % [m/s] speed threshold to use low-speed corrections in the tire lateral slip and force models
 
-load_MF96_tyre_data;
+load_MF96_tyre_data_mine;
 
 %load the new vehicle data for a F-SAE car
 student_vehicle_data;
@@ -122,7 +122,6 @@ front_wheel.mass          = m_wf;
 front_wheel.iwd_f         = m_wf/12 * (3*rf^2 + w_wf^2); % [kg*m^2] inertia of the wheel 
 front_wheel.iwa_f         = 0.5; % [kg*m^2] inertia of the whole wheel assembly
 front_wheel.static_camber = new_vehicle.gamma_f;   % [deg] Static camber for front wheels
-
 front_wheel.delta_f0      = new_vehicle.delta_f0;  % [deg] Static front toe angle
 
 

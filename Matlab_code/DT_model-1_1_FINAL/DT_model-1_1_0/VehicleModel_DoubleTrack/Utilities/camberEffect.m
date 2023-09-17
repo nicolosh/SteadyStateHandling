@@ -56,7 +56,6 @@ function camberEffect(vehicle_data,Ts,Tf)
 
          delta_alpha(:,i) = alphaR(:,i) - alphaF(:,i);
          Ay(:,i) = diff(v(1:end))/dt + Omega(2:end).*u(2:end);
-         %fprintf('Size of Ay: %4.2f - size of v = %4.2f - size of omega = %4.2f - size of u = %4.2f \n',size(Ay),size(diff(v(1:end))/dt),size(Omega),size(u));
          fprintf('End of the simulation #%d / 5 \n',i);
      end
 
@@ -77,10 +76,10 @@ function camberEffect(vehicle_data,Ts,Tf)
      figure('Name','Handling diagram for front camber angle','NumberTitle','off'), clf
      hold on
      for i = 1:5
-         plot(Ay(:,i)./g, -delta_alpha(2:end,i), 'LineWidth',2, 'DisplayName',("$-\Delta_{\alpha}(a_y)$ with $\gamma_{fr}$ = " + (-camber_vec(1,i))), 'Color', colorMap(i,:));
+         plot(Ay(:,i)./g, -delta_alpha(2:end,i), 'LineWidth',2, 'DisplayName',("$-\delta_{\alpha}(a_y)$ with $\gamma_{fr}$ = " + (-camber_vec(1,i))), 'Color', colorMap(i,:));
          title({'Handling diagram as function of $\gamma_{fr}$', ' '})
          grid on
-         ylabel('$-\Delta_{\alpha}$ [deg]')
+         ylabel('$-\delta_{\alpha}$ [deg]')
          xlabel('$\frac{a_y}{g}$ [-]')
          legend('Location','best')
      end
