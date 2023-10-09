@@ -19,4 +19,4 @@ In particular, the main requests, for each test, were the computation/derivation
 
 The type of test to be carried out can be selected through the variable test_type in the [main file](https://github.com/nicolosh/SteadyStateHandling/blob/main/Matlab_code/DT_model-1_1_FINAL/DT_model-1_1_0/VehicleModel_DoubleTrack/mainVehicleModel_2Track.m).
 
-In the folder [Report](https://github.com/nicolosh/SteadyStateHandling/tree/main/Report) can be found the report for this second and final assignment,
+In the folder [Report](https://github.com/nicolosh/SteadyStateHandling/tree/main/Report) can be found the final presentation for this second and final assignment (together with a recap of the results obtained in the first assignment).
