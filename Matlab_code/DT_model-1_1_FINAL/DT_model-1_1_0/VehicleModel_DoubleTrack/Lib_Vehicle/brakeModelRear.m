@@ -26,3 +26,4 @@ function Tw = brakeModelRear(reqBrakeTorque,omega,params)
     end
 
 end
+

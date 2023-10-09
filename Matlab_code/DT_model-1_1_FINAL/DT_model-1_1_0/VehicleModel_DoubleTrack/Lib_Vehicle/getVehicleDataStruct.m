@@ -15,10 +15,8 @@ function vehicle_data = getVehicleDataStruct()
 tire.Vlow_long                 = 8;    % [m/s] speed threshold to use low-speed corrections in the tire longit slip and force models
 tire.Vlow_lat                  = 8;    % [m/s] speed threshold to use low-speed corrections in the tire lateral slip and force models
 
-load_MF96_tyre_data_mine;
+load_MF96_tyre_data;
 
-%load the new vehicle data for a F-SAE car
-student_vehicle_data;
 
 % ----------------------------------------------------------------
 %  ___                           _            ___       _        
@@ -38,8 +36,7 @@ rear_suspension.Karb_r    = 0;     % [Nm/rad] anti-roll bar stiffness
 rear_suspension.stroke_r  = 0.06;  % [m] maximum rear damper stroke
 rear_suspension.K_es_r    = 50000; % [N/m] rear damper's end-stops stiffness
 rear_suspension.C_es_r    = 2000;  % [N*s/m] rear damper's end-stops damping
-%rear_suspension.h_rc_r    = 0.033; % [m] rear roll center height   
-rear_suspension.h_rc_r    = new_vehicle.h_rr; % [m] rear roll center height 
+rear_suspension.h_rc_r    = 0.033; % [m] rear roll center height   
 rear_suspension.z__rlx_r  = 0.175; % [m] spring free length
 rear_suspension.reg_fact  = 1e5;   % [1/m] regularized sign steepness factor (equal for front and rear)
 
@@ -53,13 +50,13 @@ front_suspension.Karb_f   = 195.4*180/pi; % [Nm/rad] anti-roll bar stiffness
 front_suspension.stroke_f = 0.06;         % [m] maximum front damper stroke
 front_suspension.K_es_f   = 50000;        % [N/m] front damper's end-stops stiffness
 front_suspension.C_es_f   = 2000;         % [N*s/m] front damper's end-stops damping
-%front_suspension.h_rc_f   = 0.056;        % [m] front roll center height    
-front_suspension.h_rc_f   = new_vehicle.h_rf; % [m] front roll center height  
+front_suspension.h_rc_f   = 0.056;        % [m] front roll center height     
 front_suspension.z__rlx_f = 0.175;        % [m] spring free length
 
 suspension.camber_gain    = 0.997836;     % [-] camber gain constant (linear fitting from suspension kinematic model)
 suspension.tau_N          = 0.06;         % [s] time constant for the vertical loads dynamics
-
+suspension.KsT            = front_suspension.Ks_f + rear_suspension.Ks_r; % [N/m] Total roll axis stiffness
+suspension.epsilon_phi    = front_suspension.Ks_f/suspension.KsT; % [-] Stiffness ratio
 % ----------------------------------------------------------------
 %   ___ _               _      ___       _        
 %  / __| |_  __ _ _____(_)___ |   \ __ _| |_ __ _ 
@@ -79,8 +76,8 @@ chassis.is_zz = 1300;       % [kg*m^2] chassis moment of inertia about z axis
 chassis.is_xz = 0.9*60;     % [kg*m^2] chassis product of inertia xz
 
 % Load the new vehicle data for a formula SAE car
-% student_vehicle_data;
-
+student_vehicle_data;
+chassis.k_phi_c = new_vehicle.k_phi_c;
 % ----------------------------------------------------------------
 %  _   _                                   ___       _        
 % | | | |_ _  ____ __ _ _ _  _ _ _  __ _  |   \ __ _| |_ __ _ 
@@ -117,13 +114,10 @@ w_wf = 6*25.4*10^(-3);  % [m] Wheel width
 rf   = tyre_data_f.R0;  % [m] Front Wheel Radius
 front_wheel.Rf            = rf;                       
 front_wheel.width         = w_wf;                     
-front_wheel.mass          = m_wf;   
-
+front_wheel.mass          = m_wf;                     
 front_wheel.iwd_f         = m_wf/12 * (3*rf^2 + w_wf^2); % [kg*m^2] inertia of the wheel 
 front_wheel.iwa_f         = 0.5; % [kg*m^2] inertia of the whole wheel assembly
-front_wheel.static_camber = new_vehicle.gamma_f;   % [deg] Static camber for front wheels
-front_wheel.delta_f0      = new_vehicle.delta_f0;  % [deg] Static front toe angle
-
+front_wheel.static_camber = new_vehicle.gamma_f;   % [deg] Static camber for rear wheels
 
 m_uf = 2*m_wf;                   % [kg] Front unsprung mass
 front_unsprung.mass = m_uf;  
@@ -202,7 +196,7 @@ transmission.eff_red = 0.93;   % [-] Efficiency of the gearbox
 
 steering_system.tau_D = 12; %3.67;  % [-] Steering transmission ratio (pinion-rack)
 steering_system.tau_H = new_vehicle.tau_H;       % [s] Time constant for steering wheel dynamics
-
+steering_system.toe = 0;
 
 % Braking system                        
 braking.max_brake_torque_front = 3500; %600;  % [Nm] max front braking torque that the hydraulic system can provide

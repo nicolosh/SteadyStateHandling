@@ -1,0 +1,3097 @@
+CompiledModel {
+  Name			  "Vehicle_Model_2Track"
+  OrigName		  "Vehicle_Model_2Track"
+  PrmModelName		  SLDataModelName(Vehicle_Model_2Track)
+  IsPreCodeGenPhase	  1
+  ModelReferenceTargetType "NONE"
+  DataTypes {
+    DataTypeDefaults {
+      RecordType	      "DataType"
+    }
+    ElementsDefaults {
+      RecordType	      "DataTypeElements"
+    }
+    NumDataTypes	    34
+    DataType {
+      Id		      0
+      RecordIdx		      [0]
+    }
+    DataType {
+      Id		      1
+      RecordIdx		      [1]
+    }
+    DataType {
+      Id		      2
+      RecordIdx		      [2]
+    }
+    DataType {
+      Id		      3
+      RecordIdx		      [3]
+    }
+    DataType {
+      Id		      4
+      RecordIdx		      [4]
+    }
+    DataType {
+      Id		      5
+      RecordIdx		      [5]
+    }
+    DataType {
+      Id		      6
+      RecordIdx		      [6]
+    }
+    DataType {
+      Id		      7
+      RecordIdx		      [7]
+    }
+    DataType {
+      Id		      8
+      RecordIdx		      [8]
+    }
+    DataType {
+      Id		      9
+      RecordIdx		      [9]
+    }
+    DataType {
+      Id		      10
+      RecordIdx		      [10]
+    }
+    DataType {
+      Id		      11
+      RecordIdx		      [11]
+    }
+    DataType {
+      Id		      12
+      RecordIdx		      [12]
+    }
+    DataType {
+      Id		      13
+      RecordIdx		      [13]
+    }
+    DataType {
+      Id		      14
+      RecordIdx		      [14]
+    }
+    DataType {
+      Id		      15
+      RecordIdx		      [15]
+    }
+    DataType {
+      Id		      16
+      RecordIdx		      [16]
+    }
+    DataType {
+      Id		      17
+      RecordIdx		      [17]
+      NumElements	      4
+      Elements {
+	RecordIdx		[17, 0]
+      }
+      Elements {
+	RecordIdx		[17, 1]
+      }
+      Elements {
+	RecordIdx		[17, 2]
+      }
+      Elements {
+	RecordIdx		[17, 3]
+      }
+    }
+    DataType {
+      Id		      18
+      RecordIdx		      [18]
+      NumElements	      3
+      Elements {
+	RecordIdx		[18, 0]
+      }
+      Elements {
+	RecordIdx		[18, 1]
+      }
+      Elements {
+	RecordIdx		[18, 2]
+      }
+    }
+    DataType {
+      Id		      19
+      RecordIdx		      [19]
+      NumElements	      2
+      Elements {
+	RecordIdx		[19, 0]
+      }
+      Elements {
+	RecordIdx		[19, 1]
+      }
+    }
+    DataType {
+      Id		      20
+      RecordIdx		      [20]
+      NumElements	      2
+      Elements {
+	RecordIdx		[20, 0]
+      }
+      Elements {
+	RecordIdx		[20, 1]
+      }
+    }
+    DataType {
+      Id		      21
+      RecordIdx		      [21]
+      NumElements	      1
+      Elements {
+	RecordIdx		[21, 0]
+      }
+    }
+    DataType {
+      Id		      22
+      RecordIdx		      [22]
+      NumElements	      6
+      Elements {
+	RecordIdx		[22, 0]
+      }
+      Elements {
+	RecordIdx		[22, 1]
+      }
+      Elements {
+	RecordIdx		[22, 2]
+      }
+      Elements {
+	RecordIdx		[22, 3]
+      }
+      Elements {
+	RecordIdx		[22, 4]
+      }
+      Elements {
+	RecordIdx		[22, 5]
+      }
+    }
+    DataType {
+      Id		      23
+      RecordIdx		      [23]
+      NumElements	      6
+      Elements {
+	RecordIdx		[23, 0]
+      }
+      Elements {
+	RecordIdx		[23, 1]
+      }
+      Elements {
+	RecordIdx		[23, 2]
+      }
+      Elements {
+	RecordIdx		[23, 3]
+      }
+      Elements {
+	RecordIdx		[23, 4]
+      }
+      Elements {
+	RecordIdx		[23, 5]
+      }
+    }
+    DataType {
+      Id		      24
+      RecordIdx		      [24]
+      NumElements	      4
+      Elements {
+	RecordIdx		[24, 0]
+      }
+      Elements {
+	RecordIdx		[24, 1]
+      }
+      Elements {
+	RecordIdx		[24, 2]
+      }
+      Elements {
+	RecordIdx		[24, 3]
+      }
+    }
+    DataType {
+      Id		      25
+      RecordIdx		      [25]
+      NumElements	      11
+      Elements {
+	RecordIdx		[25, 0]
+      }
+      Elements {
+	RecordIdx		[25, 1]
+      }
+      Elements {
+	RecordIdx		[25, 2]
+      }
+      Elements {
+	RecordIdx		[25, 3]
+      }
+      Elements {
+	RecordIdx		[25, 4]
+      }
+      Elements {
+	RecordIdx		[25, 5]
+      }
+      Elements {
+	RecordIdx		[25, 6]
+      }
+      Elements {
+	RecordIdx		[25, 7]
+      }
+      Elements {
+	RecordIdx		[25, 8]
+      }
+      Elements {
+	RecordIdx		[25, 9]
+      }
+      Elements {
+	RecordIdx		[25, 10]
+      }
+    }
+    DataType {
+      Id		      26
+      RecordIdx		      [26]
+      NumElements	      10
+      Elements {
+	RecordIdx		[26, 0]
+      }
+      Elements {
+	RecordIdx		[26, 1]
+      }
+      Elements {
+	RecordIdx		[26, 2]
+      }
+      Elements {
+	RecordIdx		[26, 3]
+      }
+      Elements {
+	RecordIdx		[26, 4]
+      }
+      Elements {
+	RecordIdx		[26, 5]
+      }
+      Elements {
+	RecordIdx		[26, 6]
+      }
+      Elements {
+	RecordIdx		[26, 7]
+      }
+      Elements {
+	RecordIdx		[26, 8]
+      }
+      Elements {
+	RecordIdx		[26, 9]
+      }
+    }
+    DataType {
+      Id		      27
+      RecordIdx		      [27]
+      NumElements	      7
+      Elements {
+	RecordIdx		[27, 0]
+      }
+      Elements {
+	RecordIdx		[27, 1]
+      }
+      Elements {
+	RecordIdx		[27, 2]
+      }
+      Elements {
+	RecordIdx		[27, 3]
+      }
+      Elements {
+	RecordIdx		[27, 4]
+      }
+      Elements {
+	RecordIdx		[27, 5]
+      }
+      Elements {
+	RecordIdx		[27, 6]
+      }
+    }
+    DataType {
+      Id		      28
+      RecordIdx		      [28]
+      NumElements	      6
+      Elements {
+	RecordIdx		[28, 0]
+      }
+      Elements {
+	RecordIdx		[28, 1]
+      }
+      Elements {
+	RecordIdx		[28, 2]
+      }
+      Elements {
+	RecordIdx		[28, 3]
+      }
+      Elements {
+	RecordIdx		[28, 4]
+      }
+      Elements {
+	RecordIdx		[28, 5]
+      }
+    }
+    DataType {
+      Id		      29
+      RecordIdx		      [29]
+      NumElements	      2
+      Elements {
+	RecordIdx		[29, 0]
+      }
+      Elements {
+	RecordIdx		[29, 1]
+      }
+    }
+    DataType {
+      Id		      30
+      RecordIdx		      [30]
+      NumElements	      101
+      Elements {
+	RecordIdx		[30, 0]
+      }
+      Elements {
+	RecordIdx		[30, 1]
+      }
+      Elements {
+	RecordIdx		[30, 2]
+      }
+      Elements {
+	RecordIdx		[30, 3]
+      }
+      Elements {
+	RecordIdx		[30, 4]
+      }
+      Elements {
+	RecordIdx		[30, 5]
+      }
+      Elements {
+	RecordIdx		[30, 6]
+      }
+      Elements {
+	RecordIdx		[30, 7]
+      }
+      Elements {
+	RecordIdx		[30, 8]
+      }
+      Elements {
+	RecordIdx		[30, 9]
+      }
+      Elements {
+	RecordIdx		[30, 10]
+      }
+      Elements {
+	RecordIdx		[30, 11]
+      }
+      Elements {
+	RecordIdx		[30, 12]
+      }
+      Elements {
+	RecordIdx		[30, 13]
+      }
+      Elements {
+	RecordIdx		[30, 14]
+      }
+      Elements {
+	RecordIdx		[30, 15]
+      }
+      Elements {
+	RecordIdx		[30, 16]
+      }
+      Elements {
+	RecordIdx		[30, 17]
+      }
+      Elements {
+	RecordIdx		[30, 18]
+      }
+      Elements {
+	RecordIdx		[30, 19]
+      }
+      Elements {
+	RecordIdx		[30, 20]
+      }
+      Elements {
+	RecordIdx		[30, 21]
+      }
+      Elements {
+	RecordIdx		[30, 22]
+      }
+      Elements {
+	RecordIdx		[30, 23]
+      }
+      Elements {
+	RecordIdx		[30, 24]
+      }
+      Elements {
+	RecordIdx		[30, 25]
+      }
+      Elements {
+	RecordIdx		[30, 26]
+      }
+      Elements {
+	RecordIdx		[30, 27]
+      }
+      Elements {
+	RecordIdx		[30, 28]
+      }
+      Elements {
+	RecordIdx		[30, 29]
+      }
+      Elements {
+	RecordIdx		[30, 30]
+      }
+      Elements {
+	RecordIdx		[30, 31]
+      }
+      Elements {
+	RecordIdx		[30, 32]
+      }
+      Elements {
+	RecordIdx		[30, 33]
+      }
+      Elements {
+	RecordIdx		[30, 34]
+      }
+      Elements {
+	RecordIdx		[30, 35]
+      }
+      Elements {
+	RecordIdx		[30, 36]
+      }
+      Elements {
+	RecordIdx		[30, 37]
+      }
+      Elements {
+	RecordIdx		[30, 38]
+      }
+      Elements {
+	RecordIdx		[30, 39]
+      }
+      Elements {
+	RecordIdx		[30, 40]
+      }
+      Elements {
+	RecordIdx		[30, 41]
+      }
+      Elements {
+	RecordIdx		[30, 42]
+      }
+      Elements {
+	RecordIdx		[30, 43]
+      }
+      Elements {
+	RecordIdx		[30, 44]
+      }
+      Elements {
+	RecordIdx		[30, 45]
+      }
+      Elements {
+	RecordIdx		[30, 46]
+      }
+      Elements {
+	RecordIdx		[30, 47]
+      }
+      Elements {
+	RecordIdx		[30, 48]
+      }
+      Elements {
+	RecordIdx		[30, 49]
+      }
+      Elements {
+	RecordIdx		[30, 50]
+      }
+      Elements {
+	RecordIdx		[30, 51]
+      }
+      Elements {
+	RecordIdx		[30, 52]
+      }
+      Elements {
+	RecordIdx		[30, 53]
+      }
+      Elements {
+	RecordIdx		[30, 54]
+      }
+      Elements {
+	RecordIdx		[30, 55]
+      }
+      Elements {
+	RecordIdx		[30, 56]
+      }
+      Elements {
+	RecordIdx		[30, 57]
+      }
+      Elements {
+	RecordIdx		[30, 58]
+      }
+      Elements {
+	RecordIdx		[30, 59]
+      }
+      Elements {
+	RecordIdx		[30, 60]
+      }
+      Elements {
+	RecordIdx		[30, 61]
+      }
+      Elements {
+	RecordIdx		[30, 62]
+      }
+      Elements {
+	RecordIdx		[30, 63]
+      }
+      Elements {
+	RecordIdx		[30, 64]
+      }
+      Elements {
+	RecordIdx		[30, 65]
+      }
+      Elements {
+	RecordIdx		[30, 66]
+      }
+      Elements {
+	RecordIdx		[30, 67]
+      }
+      Elements {
+	RecordIdx		[30, 68]
+      }
+      Elements {
+	RecordIdx		[30, 69]
+      }
+      Elements {
+	RecordIdx		[30, 70]
+      }
+      Elements {
+	RecordIdx		[30, 71]
+      }
+      Elements {
+	RecordIdx		[30, 72]
+      }
+      Elements {
+	RecordIdx		[30, 73]
+      }
+      Elements {
+	RecordIdx		[30, 74]
+      }
+      Elements {
+	RecordIdx		[30, 75]
+      }
+      Elements {
+	RecordIdx		[30, 76]
+      }
+      Elements {
+	RecordIdx		[30, 77]
+      }
+      Elements {
+	RecordIdx		[30, 78]
+      }
+      Elements {
+	RecordIdx		[30, 79]
+      }
+      Elements {
+	RecordIdx		[30, 80]
+      }
+      Elements {
+	RecordIdx		[30, 81]
+      }
+      Elements {
+	RecordIdx		[30, 82]
+      }
+      Elements {
+	RecordIdx		[30, 83]
+      }
+      Elements {
+	RecordIdx		[30, 84]
+      }
+      Elements {
+	RecordIdx		[30, 85]
+      }
+      Elements {
+	RecordIdx		[30, 86]
+      }
+      Elements {
+	RecordIdx		[30, 87]
+      }
+      Elements {
+	RecordIdx		[30, 88]
+      }
+      Elements {
+	RecordIdx		[30, 89]
+      }
+      Elements {
+	RecordIdx		[30, 90]
+      }
+      Elements {
+	RecordIdx		[30, 91]
+      }
+      Elements {
+	RecordIdx		[30, 92]
+      }
+      Elements {
+	RecordIdx		[30, 93]
+      }
+      Elements {
+	RecordIdx		[30, 94]
+      }
+      Elements {
+	RecordIdx		[30, 95]
+      }
+      Elements {
+	RecordIdx		[30, 96]
+      }
+      Elements {
+	RecordIdx		[30, 97]
+      }
+      Elements {
+	RecordIdx		[30, 98]
+      }
+      Elements {
+	RecordIdx		[30, 99]
+      }
+      Elements {
+	RecordIdx		[30, 100]
+      }
+    }
+    DataType {
+      Id		      31
+      RecordIdx		      [31]
+      NumElements	      1
+      Elements {
+	RecordIdx		[31, 0]
+      }
+    }
+    DataType {
+      Id		      32
+      RecordIdx		      [32]
+      NumElements	      15
+      Elements {
+	RecordIdx		[32, 0]
+      }
+      Elements {
+	RecordIdx		[32, 1]
+      }
+      Elements {
+	RecordIdx		[32, 2]
+      }
+      Elements {
+	RecordIdx		[32, 3]
+      }
+      Elements {
+	RecordIdx		[32, 4]
+      }
+      Elements {
+	RecordIdx		[32, 5]
+      }
+      Elements {
+	RecordIdx		[32, 6]
+      }
+      Elements {
+	RecordIdx		[32, 7]
+      }
+      Elements {
+	RecordIdx		[32, 8]
+      }
+      Elements {
+	RecordIdx		[32, 9]
+      }
+      Elements {
+	RecordIdx		[32, 10]
+      }
+      Elements {
+	RecordIdx		[32, 11]
+      }
+      Elements {
+	RecordIdx		[32, 12]
+      }
+      Elements {
+	RecordIdx		[32, 13]
+      }
+      Elements {
+	RecordIdx		[32, 14]
+      }
+    }
+    DataType {
+      Id		      33
+      RecordIdx		      [33]
+      NumElements	      18
+      Elements {
+	RecordIdx		[33, 0]
+      }
+      Elements {
+	RecordIdx		[33, 1]
+      }
+      Elements {
+	RecordIdx		[33, 2]
+      }
+      Elements {
+	RecordIdx		[33, 3]
+      }
+      Elements {
+	RecordIdx		[33, 4]
+      }
+      Elements {
+	RecordIdx		[33, 5]
+      }
+      Elements {
+	RecordIdx		[33, 6]
+      }
+      Elements {
+	RecordIdx		[33, 7]
+      }
+      Elements {
+	RecordIdx		[33, 8]
+      }
+      Elements {
+	RecordIdx		[33, 9]
+      }
+      Elements {
+	RecordIdx		[33, 10]
+      }
+      Elements {
+	RecordIdx		[33, 11]
+      }
+      Elements {
+	RecordIdx		[33, 12]
+      }
+      Elements {
+	RecordIdx		[33, 13]
+      }
+      Elements {
+	RecordIdx		[33, 14]
+      }
+      Elements {
+	RecordIdx		[33, 15]
+      }
+      Elements {
+	RecordIdx		[33, 16]
+      }
+      Elements {
+	RecordIdx		[33, 17]
+      }
+    }
+  }
+  Solver		  ode4
+  SolverType		  FixedStep
+  StartTime		  0.0
+  StopTime		  100.0
+  Subsystem {
+    Name		    "<Root>/ABS and Wheel torque generation"
+  }
+  Subsystem {
+    Name		    "<Root>/Const steering"
+  }
+  Subsystem {
+    Name		    "<Root>/Degrees to Radians"
+    SLName		    "<Root>/Degrees to\nRadians"
+  }
+  Subsystem {
+    Name		    "<Root>/ESP Controller"
+  }
+  Subsystem {
+    Name		    "<Root>/Extract and Save States"
+  }
+  Subsystem {
+    Name		    "<Root>/PID Controller"
+  }
+  Subsystem {
+    Name		    "<Root>/Params To Workspace"
+  }
+  Subsystem {
+    Name		    "<Root>/Speed ramp"
+  }
+  Subsystem {
+    Name		    "<Root>/Steering ramp"
+  }
+  Subsystem {
+    Name		    "<Root>/Subsystem"
+  }
+  Subsystem {
+    Name		    "<Root>/Vehicle Model"
+  }
+  Subsystem {
+    Name		    "<S1>/ABS Front Left Wheel"
+  }
+  Subsystem {
+    Name		    "<S1>/ABS Front Right Wheel"
+  }
+  Subsystem {
+    Name		    "<S1>/ABS Rear Left Wheel"
+  }
+  Subsystem {
+    Name		    "<S1>/ABS Rear Right Wheel"
+  }
+  Subsystem {
+    Name		    "<S1>/Powertrain"
+  }
+  Subsystem {
+    Name		    "<S5>/Radians to Degrees1"
+    SLName		    "<S5>/Radians\nto Degrees1"
+  }
+  Subsystem {
+    Name		    "<S5>/Radians to Degrees2"
+    SLName		    "<S5>/Radians\nto Degrees2"
+  }
+  Subsystem {
+    Name		    "<S5>/Radians to Degrees3"
+    SLName		    "<S5>/Radians\nto Degrees3"
+  }
+  Subsystem {
+    Name		    "<S5>/Radians to Degrees4"
+    SLName		    "<S5>/Radians\nto Degrees4"
+  }
+  Subsystem {
+    Name		    "<S6>/Anti-windup"
+  }
+  Subsystem {
+    Name		    "<S6>/D Gain"
+  }
+  Subsystem {
+    Name		    "<S6>/Filter"
+  }
+  Subsystem {
+    Name		    "<S6>/Filter ICs"
+  }
+  Subsystem {
+    Name		    "<S6>/I Gain"
+  }
+  Subsystem {
+    Name		    "<S6>/Ideal P Gain"
+  }
+  Subsystem {
+    Name		    "<S6>/Ideal P Gain Fdbk"
+  }
+  Subsystem {
+    Name		    "<S6>/Integrator"
+  }
+  Subsystem {
+    Name		    "<S6>/Integrator ICs"
+  }
+  Subsystem {
+    Name		    "<S6>/N Copy"
+  }
+  Subsystem {
+    Name		    "<S6>/N Gain"
+  }
+  Subsystem {
+    Name		    "<S6>/P Copy"
+  }
+  Subsystem {
+    Name		    "<S6>/Parallel P Gain"
+  }
+  Subsystem {
+    Name		    "<S6>/Reset Signal"
+  }
+  Subsystem {
+    Name		    "<S6>/Saturation"
+  }
+  Subsystem {
+    Name		    "<S6>/Saturation Fdbk"
+  }
+  Subsystem {
+    Name		    "<S6>/Sum"
+  }
+  Subsystem {
+    Name		    "<S6>/Sum Fdbk"
+  }
+  Subsystem {
+    Name		    "<S6>/Tracking Mode"
+  }
+  Subsystem {
+    Name		    "<S6>/Tracking Mode Sum"
+  }
+  Subsystem {
+    Name		    "<S6>/Tsamp - Integral"
+  }
+  Subsystem {
+    Name		    "<S6>/Tsamp - Ngain"
+  }
+  Subsystem {
+    Name		    "<S6>/postSat Signal"
+  }
+  Subsystem {
+    Name		    "<S6>/preSat Signal"
+  }
+  Subsystem {
+    Name		    "<S21>/Passthrough"
+  }
+  Subsystem {
+    Name		    "<S22>/Internal Parameters"
+  }
+  Subsystem {
+    Name		    "<S23>/Cont. Filter"
+  }
+  Subsystem {
+    Name		    "<S24>/Internal IC - Filter"
+  }
+  Subsystem {
+    Name		    "<S25>/Internal Parameters"
+  }
+  Subsystem {
+    Name		    "<S26>/Passthrough"
+  }
+  Subsystem {
+    Name		    "<S27>/Disabled"
+  }
+  Subsystem {
+    Name		    "<S28>/Continuous"
+  }
+  Subsystem {
+    Name		    "<S29>/Internal IC"
+  }
+  Subsystem {
+    Name		    "<S30>/Disabled"
+  }
+  Subsystem {
+    Name		    "<S31>/Internal Parameters"
+  }
+  Subsystem {
+    Name		    "<S32>/Disabled"
+  }
+  Subsystem {
+    Name		    "<S33>/Internal Parameters"
+  }
+  Subsystem {
+    Name		    "<S34>/Disabled"
+  }
+  Subsystem {
+    Name		    "<S35>/Enabled"
+  }
+  Subsystem {
+    Name		    "<S36>/Disabled"
+  }
+  Subsystem {
+    Name		    "<S37>/Sum_PID"
+  }
+  Subsystem {
+    Name		    "<S38>/Disabled"
+  }
+  Subsystem {
+    Name		    "<S39>/Disabled"
+  }
+  Subsystem {
+    Name		    "<S40>/Passthrough"
+  }
+  Subsystem {
+    Name		    "<S41>/TsSignalSpecification"
+  }
+  Subsystem {
+    Name		    "<S42>/Passthrough"
+  }
+  Subsystem {
+    Name		    "<S43>/Forward_Path"
+  }
+  Subsystem {
+    Name		    "<S44>/Forward_Path"
+  }
+  Subsystem {
+    Name		    "<S7>/Radians to Degrees"
+    SLName		    "<S7>/Radians\nto Degrees"
+  }
+  Subsystem {
+    Name		    "<S7>/Radians to Degrees1"
+    SLName		    "<S7>/Radians\nto Degrees1"
+  }
+  Subsystem {
+    Name		    "<S7>/Radians to Degrees11"
+    SLName		    "<S7>/Radians\nto Degrees11"
+  }
+  Subsystem {
+    Name		    "<S7>/Radians to Degrees12"
+    SLName		    "<S7>/Radians\nto Degrees12"
+  }
+  Subsystem {
+    Name		    "<S7>/Radians to Degrees2"
+    SLName		    "<S7>/Radians\nto Degrees2"
+  }
+  Subsystem {
+    Name		    "<S7>/Radians to Degrees3"
+    SLName		    "<S7>/Radians\nto Degrees3"
+  }
+  Subsystem {
+    Name		    "<S7>/Radians to Degrees4"
+    SLName		    "<S7>/Radians\nto Degrees4"
+  }
+  Subsystem {
+    Name		    "<S10>/IMU"
+  }
+  Subsystem {
+    Name		    "<S76>/Discrete Derivative"
+  }
+  Subsystem {
+    Name		    "<S76>/Discrete Derivative1"
+  }
+  ExprCommentInfoDefaults {
+    SysIdxList		    []
+    BlkIdxList		    []
+    PortIdxList		    []
+  }
+  ExprCommentSrcIdxDefaults {
+    SysIdx		    -1
+    BlkIdx		    -1
+    PortIdx		    -1
+  }
+  BlockDefaults {
+    UserDefinedRWork	    0
+    UserDefinedIWork	    0
+    UserDefinedPWork	    0
+    NumRWorkDefines	    -1
+    NumIWorkDefines	    -1
+    NumPWorkDefines	    -1
+    RecordType		    "Block"
+    InMask		    no
+    ExecuteBlockFcns	    1
+    UseTLC		    0
+    DeletedInIR		    0
+    AlgebraicLoopId	    0
+    PortBasedSampleTimes    no
+    ContStates		    [0,0,0]
+    ModeVector		    [0,-1]
+    RWork		    [0,-1]
+    IWork		    [0,-1]
+    PWork		    [0,-1]
+    DiscStates		    [0,-1]
+    MassMatrixPr	    [0,-1]
+    NumDWork		    0
+    NumNonsampledZCs	    0
+    ZCEvents		    [0,0]
+    NumBlkZcRecs	    0
+    RollRegions		    []
+    RollRegionTypes	    []
+    NumDataInputPorts	    0
+    NumControlInputPorts    0
+    NumDataOutputPorts	    1
+    Parameters		    [0,0]
+    NumParameterGroups	    0
+    Description		    []
+    PolySpaceStartComment   []
+    PolySpaceEndComment	    []
+    ReducedBlocksConnected  []
+    HaveBlockComment	    0
+    InFixptMode		    0
+    GrSrc		    [-1, -1]
+    NeedOutputsFcnInMdlStart 0
+    AsyncSfcn		    0
+    TriggeredBlockConstantSampleTimePorts []
+    HasSymbolicDims	    0
+    OutputBlockFcnIdx	    -1
+    HasLocalSolver	    no
+    LocalSolverInputCompensationMode 0
+    LocalSolverOutputCompensationMode 0
+  }
+  NumSystems		  6
+  tSS_LONG		  -2147483648
+  tSS_ULONG		  -2147483645
+  tSS_LONG_LONG		  -2147483644
+  tSS_ULONG_LONG	  -2147483643
+  tSS_VOID		  -2147483647
+  tSS_SIZET		  -2147483646
+  tSS_UINTEGER		  -2147483642
+  tSS_CHAR		  -2147483641
+  tSS_UCHAR		  -2147483640
+  tSS_TIME		  -2147483639
+  tSS_DOUBLE		  0
+  tSS_SINGLE		  1
+  tSS_INT8		  2
+  tSS_UINT8		  3
+  tSS_INT16		  4
+  tSS_UINT16		  5
+  tSS_INT32		  6
+  tSS_UINT32		  7
+  tSS_BOOLEAN		  8
+  tSS_FCN_CALL		  9
+  tSS_POINTER		  11
+  tSS_TIMER_UINT32_PAIR	  13
+  tSS_INVALID_DATA_TYPE_ID -10
+  BlockHierarchyMap {
+    Subsystem {
+      Name		      "<Root>"
+      Block {
+	Name			"<Root>/ABS and Wheel torque generation"
+      }
+      Block {
+	Name			"<Root>/Const steering"
+      }
+      Block {
+	Name			"<Root>/Degrees to Radians"
+      }
+      Block {
+	Name			"<Root>/ESP Controller"
+      }
+      Block {
+	Name			"<Root>/Extract and Save States"
+      }
+      Block {
+	Name			"<Root>/PID Controller"
+      }
+      Block {
+	Name			"<Root>/Params To Workspace"
+      }
+      Block {
+	Name			"<Root>/Speed ramp"
+      }
+      Block {
+	Name			"<Root>/Steering ramp"
+      }
+      Block {
+	Name			"<Root>/Subsystem"
+      }
+      Block {
+	Name			"<Root>/Vehicle Model"
+      }
+      Block {
+	Name			"<Root>/Constant"
+      }
+      Block {
+	Name			"<Root>/Constant1"
+      }
+      Block {
+	Name			"<Root>/Discrete-Time Integrator"
+      }
+      Block {
+	Name			"<Root>/Saturation"
+      }
+      Block {
+	Name			"<Root>/Saturation1"
+      }
+      Block {
+	Name			"<Root>/Saturation2"
+      }
+      Block {
+	Name			"<Root>/Saturation3"
+      }
+      Block {
+	Name			"<Root>/Subtract"
+      }
+      Block {
+	Name			"<Root>/Pedal"
+      }
+      Block {
+	Name			"<Root>/Steering"
+      }
+      Block {
+	Name			"<Root>/Scope"
+      }
+      Block {
+	Name			"<Root>/Unit Delay"
+      }
+    }
+    Subsystem {
+      Name		      "<Root>/ABS and Wheel torque generation"
+      Block {
+	Name			"<S1>/ABS Front Left Wheel"
+      }
+      Block {
+	Name			"<S1>/ABS Front Right Wheel"
+      }
+      Block {
+	Name			"<S1>/ABS Rear Left Wheel"
+      }
+      Block {
+	Name			"<S1>/ABS Rear Right Wheel"
+      }
+      Block {
+	Name			"<S1>/Powertrain"
+      }
+    }
+    Subsystem {
+      Name		      "<Root>/Const steering"
+      Block {
+	Name			"<S2>/Clock"
+      }
+      Block {
+	Name			"<S2>/Constant"
+      }
+      Block {
+	Name			"<S2>/Constant1"
+      }
+      Block {
+	Name			"<S2>/Product"
+      }
+      Block {
+	Name			"<S2>/Step"
+      }
+      Block {
+	Name			"<S2>/Output"
+      }
+      Block {
+	Name			"<S2>/Sum"
+      }
+    }
+    Subsystem {
+      Name		      "<Root>/Degrees to\nRadians"
+      Block {
+	Name			"<S3>/Gain1"
+      }
+    }
+    Subsystem {
+      Name		      "<Root>/ESP Controller"
+    }
+    Subsystem {
+      Name		      "<Root>/Extract and Save States"
+      Block {
+	Name			"<S5>/Radians to Degrees1"
+      }
+      Block {
+	Name			"<S5>/Radians to Degrees2"
+      }
+      Block {
+	Name			"<S5>/Radians to Degrees3"
+      }
+      Block {
+	Name			"<S5>/Radians to Degrees4"
+      }
+    }
+    Subsystem {
+      Name		      "<Root>/PID Controller"
+      Block {
+	Name			"<S6>/Anti-windup"
+      }
+      Block {
+	Name			"<S6>/D Gain"
+      }
+      Block {
+	Name			"<S6>/Filter"
+      }
+      Block {
+	Name			"<S6>/Filter ICs"
+      }
+      Block {
+	Name			"<S6>/I Gain"
+      }
+      Block {
+	Name			"<S6>/Ideal P Gain"
+      }
+      Block {
+	Name			"<S6>/Ideal P Gain Fdbk"
+      }
+      Block {
+	Name			"<S6>/Integrator"
+      }
+      Block {
+	Name			"<S6>/Integrator ICs"
+      }
+      Block {
+	Name			"<S6>/N Copy"
+      }
+      Block {
+	Name			"<S6>/N Gain"
+      }
+      Block {
+	Name			"<S6>/P Copy"
+      }
+      Block {
+	Name			"<S6>/PID Compensator Formula"
+      }
+      Block {
+	Name			"<S6>/Parallel P Gain"
+      }
+      Block {
+	Name			"<S6>/Reset Signal"
+      }
+      Block {
+	Name			"<S6>/Saturation"
+      }
+      Block {
+	Name			"<S6>/Saturation Fdbk"
+      }
+      Block {
+	Name			"<S6>/Sum"
+      }
+      Block {
+	Name			"<S6>/Sum Fdbk"
+      }
+      Block {
+	Name			"<S6>/Tracking Mode"
+      }
+      Block {
+	Name			"<S6>/Tracking Mode Sum"
+      }
+      Block {
+	Name			"<S6>/Tsamp - Integral"
+      }
+      Block {
+	Name			"<S6>/Tsamp - Ngain"
+      }
+      Block {
+	Name			"<S6>/postSat Signal"
+      }
+      Block {
+	Name			"<S6>/preSat Signal"
+      }
+    }
+    Subsystem {
+      Name		      "<Root>/Params To Workspace"
+      Block {
+	Name			"<S7>/Radians to Degrees"
+      }
+      Block {
+	Name			"<S7>/Radians to Degrees1"
+      }
+      Block {
+	Name			"<S7>/Radians to Degrees11"
+      }
+      Block {
+	Name			"<S7>/Radians to Degrees12"
+      }
+      Block {
+	Name			"<S7>/Radians to Degrees2"
+      }
+      Block {
+	Name			"<S7>/Radians to Degrees3"
+      }
+      Block {
+	Name			"<S7>/Radians to Degrees4"
+      }
+    }
+    Subsystem {
+      Name		      "<Root>/Speed ramp"
+      Block {
+	Name			"<S8>/Clock"
+      }
+      Block {
+	Name			"<S8>/Constant"
+      }
+      Block {
+	Name			"<S8>/Constant1"
+      }
+      Block {
+	Name			"<S8>/Product"
+      }
+      Block {
+	Name			"<S8>/Step"
+      }
+      Block {
+	Name			"<S8>/Output"
+      }
+      Block {
+	Name			"<S8>/Sum"
+      }
+    }
+    Subsystem {
+      Name		      "<Root>/Steering ramp"
+      Block {
+	Name			"<S9>/Clock"
+      }
+      Block {
+	Name			"<S9>/Constant"
+      }
+      Block {
+	Name			"<S9>/Constant1"
+      }
+      Block {
+	Name			"<S9>/Product"
+      }
+      Block {
+	Name			"<S9>/Step"
+      }
+      Block {
+	Name			"<S9>/Output"
+      }
+      Block {
+	Name			"<S9>/Sum"
+      }
+    }
+    Subsystem {
+      Name		      "<Root>/Subsystem"
+      Block {
+	Name			"<S10>/IMU"
+      }
+    }
+    Subsystem {
+      Name		      "<Root>/Vehicle Model"
+    }
+    Subsystem {
+      Name		      "<S1>/ABS Front Left Wheel"
+    }
+    Subsystem {
+      Name		      "<S1>/ABS Front Right Wheel"
+    }
+    Subsystem {
+      Name		      "<S1>/ABS Rear Left Wheel"
+    }
+    Subsystem {
+      Name		      "<S1>/ABS Rear Right Wheel"
+    }
+    Subsystem {
+      Name		      "<S1>/Powertrain"
+    }
+    Subsystem {
+      Name		      "<S5>/Radians\nto Degrees1"
+      Block {
+	Name			"<S17>/Gain"
+      }
+    }
+    Subsystem {
+      Name		      "<S5>/Radians\nto Degrees2"
+      Block {
+	Name			"<S18>/Gain"
+      }
+    }
+    Subsystem {
+      Name		      "<S5>/Radians\nto Degrees3"
+      Block {
+	Name			"<S19>/Gain"
+      }
+    }
+    Subsystem {
+      Name		      "<S5>/Radians\nto Degrees4"
+      Block {
+	Name			"<S20>/Gain"
+      }
+    }
+    Subsystem {
+      Name		      "<S6>/Anti-windup"
+      Block {
+	Name			"<S21>/Passthrough"
+      }
+    }
+    Subsystem {
+      Name		      "<S6>/D Gain"
+      Block {
+	Name			"<S22>/Internal Parameters"
+      }
+    }
+    Subsystem {
+      Name		      "<S6>/Filter"
+      Block {
+	Name			"<S23>/Cont. Filter"
+      }
+    }
+    Subsystem {
+      Name		      "<S6>/Filter ICs"
+      Block {
+	Name			"<S24>/Internal IC - Filter"
+      }
+    }
+    Subsystem {
+      Name		      "<S6>/I Gain"
+      Block {
+	Name			"<S25>/Internal Parameters"
+      }
+    }
+    Subsystem {
+      Name		      "<S6>/Ideal P Gain"
+      Block {
+	Name			"<S26>/Passthrough"
+      }
+    }
+    Subsystem {
+      Name		      "<S6>/Ideal P Gain Fdbk"
+      Block {
+	Name			"<S27>/Disabled"
+      }
+    }
+    Subsystem {
+      Name		      "<S6>/Integrator"
+      Block {
+	Name			"<S28>/Continuous"
+      }
+    }
+    Subsystem {
+      Name		      "<S6>/Integrator ICs"
+      Block {
+	Name			"<S29>/Internal IC"
+      }
+    }
+    Subsystem {
+      Name		      "<S6>/N Copy"
+      Block {
+	Name			"<S30>/Disabled"
+      }
+    }
+    Subsystem {
+      Name		      "<S6>/N Gain"
+      Block {
+	Name			"<S31>/Internal Parameters"
+      }
+    }
+    Subsystem {
+      Name		      "<S6>/P Copy"
+      Block {
+	Name			"<S32>/Disabled"
+      }
+    }
+    Subsystem {
+      Name		      "<S6>/PID Compensator Formula"
+    }
+    Subsystem {
+      Name		      "<S6>/Parallel P Gain"
+      Block {
+	Name			"<S33>/Internal Parameters"
+      }
+    }
+    Subsystem {
+      Name		      "<S6>/Reset Signal"
+      Block {
+	Name			"<S34>/Disabled"
+      }
+    }
+    Subsystem {
+      Name		      "<S6>/Saturation"
+      Block {
+	Name			"<S35>/Enabled"
+      }
+    }
+    Subsystem {
+      Name		      "<S6>/Saturation Fdbk"
+      Block {
+	Name			"<S36>/Disabled"
+      }
+    }
+    Subsystem {
+      Name		      "<S6>/Sum"
+      Block {
+	Name			"<S37>/Sum_PID"
+      }
+    }
+    Subsystem {
+      Name		      "<S6>/Sum Fdbk"
+      Block {
+	Name			"<S38>/Disabled"
+      }
+    }
+    Subsystem {
+      Name		      "<S6>/Tracking Mode"
+      Block {
+	Name			"<S39>/Disabled"
+      }
+    }
+    Subsystem {
+      Name		      "<S6>/Tracking Mode Sum"
+      Block {
+	Name			"<S40>/Passthrough"
+      }
+    }
+    Subsystem {
+      Name		      "<S6>/Tsamp - Integral"
+      Block {
+	Name			"<S41>/TsSignalSpecification"
+      }
+    }
+    Subsystem {
+      Name		      "<S6>/Tsamp - Ngain"
+      Block {
+	Name			"<S42>/Passthrough"
+      }
+    }
+    Subsystem {
+      Name		      "<S6>/postSat Signal"
+      Block {
+	Name			"<S43>/Forward_Path"
+      }
+    }
+    Subsystem {
+      Name		      "<S6>/preSat Signal"
+      Block {
+	Name			"<S44>/Forward_Path"
+      }
+    }
+    Subsystem {
+      Name		      "<S7>/Radians\nto Degrees"
+      Block {
+	Name			"<S69>/Gain"
+      }
+    }
+    Subsystem {
+      Name		      "<S7>/Radians\nto Degrees1"
+      Block {
+	Name			"<S70>/Gain"
+      }
+    }
+    Subsystem {
+      Name		      "<S7>/Radians\nto Degrees11"
+      Block {
+	Name			"<S71>/Gain"
+      }
+    }
+    Subsystem {
+      Name		      "<S7>/Radians\nto Degrees12"
+      Block {
+	Name			"<S72>/Gain"
+      }
+    }
+    Subsystem {
+      Name		      "<S7>/Radians\nto Degrees2"
+      Block {
+	Name			"<S73>/Gain"
+      }
+    }
+    Subsystem {
+      Name		      "<S7>/Radians\nto Degrees3"
+      Block {
+	Name			"<S74>/Gain"
+      }
+    }
+    Subsystem {
+      Name		      "<S7>/Radians\nto Degrees4"
+      Block {
+	Name			"<S75>/Gain"
+      }
+    }
+    Subsystem {
+      Name		      "<S10>/IMU"
+      Block {
+	Name			"<S76>/Discrete Derivative"
+      }
+      Block {
+	Name			"<S76>/Discrete Derivative1"
+      }
+      Block {
+	Name			"<S76>/Product"
+      }
+      Block {
+	Name			"<S76>/Product1"
+      }
+      Block {
+	Name			"<S76>/Sum"
+      }
+      Block {
+	Name			"<S76>/Sum1"
+      }
+    }
+    Subsystem {
+      Name		      "<S21>/Passthrough"
+    }
+    Subsystem {
+      Name		      "<S22>/Internal Parameters"
+      Block {
+	Name			"<S46>/Derivative Gain"
+      }
+    }
+    Subsystem {
+      Name		      "<S23>/Cont. Filter"
+      Block {
+	Name			"<S47>/Filter"
+      }
+      Block {
+	Name			"<S47>/SumD"
+      }
+    }
+    Subsystem {
+      Name		      "<S24>/Internal IC - Filter"
+    }
+    Subsystem {
+      Name		      "<S25>/Internal Parameters"
+      Block {
+	Name			"<S49>/Integral Gain"
+      }
+    }
+    Subsystem {
+      Name		      "<S26>/Passthrough"
+    }
+    Subsystem {
+      Name		      "<S27>/Disabled"
+    }
+    Subsystem {
+      Name		      "<S28>/Continuous"
+      Block {
+	Name			"<S52>/Integrator"
+      }
+    }
+    Subsystem {
+      Name		      "<S29>/Internal IC"
+    }
+    Subsystem {
+      Name		      "<S30>/Disabled"
+    }
+    Subsystem {
+      Name		      "<S31>/Internal Parameters"
+      Block {
+	Name			"<S55>/Filter Coefficient"
+      }
+    }
+    Subsystem {
+      Name		      "<S32>/Disabled"
+    }
+    Subsystem {
+      Name		      "<S33>/Internal Parameters"
+      Block {
+	Name			"<S57>/Proportional Gain"
+      }
+    }
+    Subsystem {
+      Name		      "<S34>/Disabled"
+    }
+    Subsystem {
+      Name		      "<S35>/Enabled"
+      Block {
+	Name			"<S59>/Saturation"
+      }
+    }
+    Subsystem {
+      Name		      "<S36>/Disabled"
+    }
+    Subsystem {
+      Name		      "<S37>/Sum_PID"
+      Block {
+	Name			"<S61>/Sum"
+      }
+    }
+    Subsystem {
+      Name		      "<S38>/Disabled"
+    }
+    Subsystem {
+      Name		      "<S39>/Disabled"
+    }
+    Subsystem {
+      Name		      "<S40>/Passthrough"
+    }
+    Subsystem {
+      Name		      "<S41>/TsSignalSpecification"
+    }
+    Subsystem {
+      Name		      "<S42>/Passthrough"
+    }
+    Subsystem {
+      Name		      "<S43>/Forward_Path"
+    }
+    Subsystem {
+      Name		      "<S44>/Forward_Path"
+    }
+    Subsystem {
+      Name		      "<S76>/Discrete Derivative"
+      Block {
+	Name			"<S77>/Diff"
+      }
+      Block {
+	Name			"<S77>/Data Type Duplicate"
+      }
+      Block {
+	Name			"<S77>/TSamp"
+      }
+      Block {
+	Name			"<S77>/UD"
+      }
+    }
+    Subsystem {
+      Name		      "<S76>/Discrete Derivative1"
+      Block {
+	Name			"<S78>/Diff"
+      }
+      Block {
+	Name			"<S78>/Data Type Duplicate"
+      }
+      Block {
+	Name			"<S78>/TSamp"
+      }
+      Block {
+	Name			"<S78>/UD"
+      }
+    }
+  }
+  DWorkDefaults {
+    RecordType		    "BlockDWork"
+  }
+  ParameterDefaults {
+    RecordType		    "BlockParameter"
+    Tunable		    yes
+  }
+  DataInputPortDefaults {
+    RecordType		    "DataInputPort"
+  }
+  DataOutputPortDefaults {
+    RecordType		    "DataOutputPort"
+  }
+  ModelIsLinearlyImplicit no
+  System {
+    SystemIdx		    0
+    Name		    "<S1>/Powertrain"
+    FileNameOwnerIdx	    5
+    NumBlocks		    1
+    Block {
+      Type		      "S-Function"
+      Name		      "<S16>/ SFunction "
+      RecordType	      "CompiledBlock"
+      RecordIdx		      [0, 0]
+      BlockIdx		      [0, 0, 0]
+      TID		      0
+      ExecuteBlockFcns	      0
+      NumDataInputPorts	      1
+      DataInputPort {
+	RecordIdx		[0, 0, 0]
+      }
+      NumDataOutputPorts      6
+      DataOutputPort {
+	RecordIdx		[0, 0, 0]
+      }
+      DataOutputPort {
+	RecordIdx		[0, 0, 1]
+      }
+      DataOutputPort {
+	RecordIdx		[0, 0, 2]
+      }
+      DataOutputPort {
+	RecordIdx		[0, 0, 3]
+      }
+      DataOutputPort {
+	RecordIdx		[0, 0, 4]
+      }
+      DataOutputPort {
+	RecordIdx		[0, 0, 5]
+      }
+      NumDWork		      3
+      DWork {
+	RecordIdx		[0, 0, 0]
+	Name			"DWORK1"
+      }
+      DWork {
+	RecordIdx		[0, 0, 1]
+	Name			"DWORK2"
+      }
+      DWork {
+	RecordIdx		[0, 0, 2]
+	Name			"DWORK3"
+      }
+      Parameters	      [1]
+      Parameter {
+	BlockParamIdx		0
+	Name			"vehicle_data"
+	RecordIdx		[0, 0, 0]
+	Value			SLData(0)
+      }
+      vehicle_data	      Parameter[0]
+    }
+  }
+  System {
+    SystemIdx		    1
+    Name		    "<Root>/TmpAtomicSubsysAtPedalInport3"
+    FileNameOwnerIdx	    5
+    NumBlocks		    0
+  }
+  System {
+    SystemIdx		    2
+    Name		    "<Root>/TmpAtomicSubsysAtSteeringInport1"
+    FileNameOwnerIdx	    5
+    NumBlocks		    0
+  }
+  System {
+    SystemIdx		    3
+    Name		    "<Root>/TmpAtomicSubsysAtSteeringInport3"
+    FileNameOwnerIdx	    5
+    NumBlocks		    0
+  }
+  System {
+    SystemIdx		    4
+    Name		    "<Root>/Vehicle Model"
+    FileNameOwnerIdx	    5
+    NumBlocks		    1
+    Block {
+      Type		      "S-Function"
+      Name		      "<S11>/ SFunction "
+      RecordType	      "CompiledBlock"
+      RecordIdx		      [4, 0]
+      BlockIdx		      [4, 4, 0]
+      TID		      0
+      ExecuteBlockFcns	      0
+      NumDataInputPorts	      8
+      DataInputPort {
+	RecordIdx		[4, 0, 0]
+      }
+      DataInputPort {
+	RecordIdx		[4, 0, 1]
+      }
+      DataInputPort {
+	RecordIdx		[4, 0, 2]
+      }
+      DataInputPort {
+	RecordIdx		[4, 0, 3]
+      }
+      DataInputPort {
+	RecordIdx		[4, 0, 4]
+      }
+      DataInputPort {
+	RecordIdx		[4, 0, 5]
+      }
+      DataInputPort {
+	RecordIdx		[4, 0, 6]
+      }
+      DataInputPort {
+	RecordIdx		[4, 0, 7]
+      }
+      NumDataOutputPorts      3
+      DataOutputPort {
+	RecordIdx		[4, 0, 0]
+      }
+      DataOutputPort {
+	RecordIdx		[4, 0, 1]
+      }
+      DataOutputPort {
+	RecordIdx		[4, 0, 2]
+      }
+      NumDWork		      3
+      DWork {
+	RecordIdx		[4, 0, 0]
+	Name			"DWORK1"
+      }
+      DWork {
+	RecordIdx		[4, 0, 1]
+	Name			"DWORK2"
+      }
+      DWork {
+	RecordIdx		[4, 0, 2]
+	Name			"DWORK3"
+      }
+      Parameters	      [0]
+    }
+  }
+  System {
+    SystemIdx		    5
+    Name		    "<Root>"
+    FileNameOwnerIdx	    5
+    NumBlocks		    24
+    Block {
+      Type		      Scope
+      Name		      "<Root>/Scope"
+      RecordType	      "CompiledBlock"
+      RecordIdx		      [5, 0]
+      BlockIdx		      [5, 5, 0]
+      TID		      1
+      ExecuteBlockFcns	      0
+      RollRegions	      [0]
+      NumPWorkDefines	      1
+      PWorkDefine {
+	Name			"LoggedData"
+	Width			1
+	StartIndex		0
+      }
+      ParamSettings {
+	SaveToWorkspace		no
+	SaveName		ScopeData
+	MaxDataPoints		[0]
+	Decimation		[1]
+	DataFormat		"StructureWithTime"
+	AxesLabels {
+	  axes1			  ""
+	}
+	PlotStyles		[1]
+	FrameData		[0]
+	UseDESTimingEngine	-1
+	IsERTMobileTarget	0
+      }
+      NumDataInputPorts	      1
+      DataInputPort {
+	RecordIdx		[5, 0, 0]
+      }
+      NumDataOutputPorts      0
+      NumDWork		      1
+      DWork {
+	RecordIdx		[5, 0, 0]
+	Name			"PWORK"
+      }
+      Parameters	      [0]
+    }
+    Block {
+      Type		      SubSystem
+      Name		      "<Root>/TmpAtomicSubsysAtPedalInport3"
+      RecordType	      "CompiledBlock"
+      RecordIdx		      [5, 1]
+      BlockIdx		      [5, 1, 1]
+      TID		      Subsystem
+      ExecuteBlockFcns	      0
+      NumDataInputPorts	      0
+      NumDataOutputPorts      0
+      NumDWork		      0
+      Parameters	      [0]
+    }
+    Block {
+      Type		      SubSystem
+      Name		      "<Root>/TmpAtomicSubsysAtSteeringInport1"
+      RecordType	      "CompiledBlock"
+      RecordIdx		      [5, 2]
+      BlockIdx		      [5, 2, 2]
+      TID		      Subsystem
+      ExecuteBlockFcns	      0
+      NumDataInputPorts	      0
+      NumDataOutputPorts      0
+      NumDWork		      0
+      Parameters	      [0]
+    }
+    Block {
+      Type		      SubSystem
+      Name		      "<Root>/TmpAtomicSubsysAtSteeringInport3"
+      RecordType	      "CompiledBlock"
+      RecordIdx		      [5, 3]
+      BlockIdx		      [5, 3, 3]
+      TID		      Subsystem
+      ExecuteBlockFcns	      0
+      NumDataInputPorts	      0
+      NumDataOutputPorts      0
+      NumDWork		      0
+      Parameters	      [0]
+    }
+    Block {
+      Type		      ToAsyncQueueBlock
+      Name		      "<Root>/_asyncqueue_inserted_for_To Workspace1"
+      RecordType	      "CompiledBlock"
+      RecordIdx		      [5, 4]
+      BlockIdx		      [5, 5, 4]
+      TID		      1
+      ExecuteBlockFcns	      0
+      RollRegions	      [0]
+      NumPWorkDefines	      1
+      PWorkDefine {
+	Name			"AQHandles"
+	Width			2
+	StartIndex		0
+      }
+      ParamSettings {
+	uniqueId		[1994347752U, 1996845359U]
+	InputSignalBlockPath	"Vehicle_Model_2Track/To Workspace1"
+	InputSignalPortIndex	[0]
+	InputSignalName		[".ped_0", ".delta_D"]
+	SignalSourceUUID	"ed14733d-2b33-4f15-be7c-71edb1ed9e5e"
+	IsContinuous		[1, 1]
+	SupportsInProcAQs	[1]
+	IsVirtualBus		[1]
+	UseDESTimingEngine	-1
+	SignalUnits		["", ""]
+	UseUnitsFromBusObj	1
+	CustomBusDataTypeID	-1
+	SampleTimeLabels	["0.0001", "0.0001"]
+	IsMessageLine		0
+	Decimation		[1]
+	MaxPoints		[0]
+	LoggedName		"Bus\nCreator1"
+	OrigSignalName		""
+	PropName		"Bus\nCreator1"
+	NVBusLeafFullName	[""]
+	UseTgtConnForRaccel	[0]
+	DiscreteInterval	[0.0001, 0.0001]
+	RefRatePeriod		[0.0, 0.0]
+	SignalDomain		""
+	ExportOrderIndex	[0]
+	CustomDims		[]
+	LogPowerDownEvent	0
+	BusHierDescIndex	[-1]
+	IsVMSim			0
+	IsBufferedLogging	0
+	IsFrameBased		0
+	HideInSDI		0
+	BlockPathDomain		1
+	VisualType		""
+	PortAQMapStartIdx	[]
+	NumAQs			2
+	UseTerminateFcn		0
+	RecToWksVarName		"inputs"
+	RecToWksFormat		"timeseries"
+	RecToFileType		""
+	LogFixPtAsDouble	0
+      }
+      NumDataInputPorts	      2
+      DataInputPort {
+	RecordIdx		[5, 4, 0]
+      }
+      DataInputPort {
+	RecordIdx		[5, 4, 1]
+      }
+      NumDataOutputPorts      0
+      NumDWork		      1
+      DWork {
+	RecordIdx		[5, 4, 0]
+	Name			"PWORK"
+      }
+      Parameters	      [0]
+    }
+    Block {
+      Type		      SubSystem
+      Name		      "<S1>/Powertrain"
+      RecordType	      "CompiledBlock"
+      RecordIdx		      [5, 5]
+      BlockIdx		      [5, 0, 5]
+      TID		      Subsystem
+      ExecuteBlockFcns	      0
+      NumDataInputPorts	      0
+      NumDataOutputPorts      0
+      NumDWork		      0
+      Parameters	      [0]
+    }
+    Block {
+      Type		      ToAsyncQueueBlock
+      Name		      "<S5>/TAQSigLogging_InsertedFor_Demux1_at_outport_15"
+      RecordType	      "CompiledBlock"
+      RecordIdx		      [5, 6]
+      BlockIdx		      [5, 5, 6]
+      TID		      1
+      ExecuteBlockFcns	      0
+      RollRegions	      [0]
+      NumPWorkDefines	      1
+      PWorkDefine {
+	Name			"AQHandles"
+	Width			1
+	StartIndex		0
+      }
+      ParamSettings {
+	uniqueId		[627396855U]
+	InputSignalBlockPath	"Vehicle_Model_2Track/Extract and Save States/Demux1"
+	InputSignalPortIndex	[15]
+	InputSignalName		[""]
+	SignalSourceUUID	"1a4a8d26-9355-4102-a82f-3648f04af2c9"
+	IsContinuous		[0]
+	SupportsInProcAQs	[1]
+	IsVirtualBus		[0]
+	UseDESTimingEngine	-1
+	SignalUnits		[""]
+	UseUnitsFromBusObj	1
+	CustomBusDataTypeID	-1
+	SampleTimeLabels	["0.0001"]
+	IsMessageLine		0
+	Decimation		[1]
+	MaxPoints		[0]
+	LoggedName		""
+	OrigSignalName		""
+	PropName		""
+	NVBusLeafFullName	[""]
+	UseTgtConnForRaccel	[0]
+	DiscreteInterval	[0.0001]
+	RefRatePeriod		[0.0]
+	SignalDomain		""
+	ExportOrderIndex	[0]
+	CustomDims		[]
+	LogPowerDownEvent	0
+	BusHierDescIndex	[-1]
+	IsVMSim			0
+	IsBufferedLogging	0
+	IsFrameBased		0
+	HideInSDI		0
+	BlockPathDomain		0
+	VisualType		""
+	PortAQMapStartIdx	[]
+	NumAQs			1
+	UseTerminateFcn		0
+	RecToWksVarName		""
+	RecToWksFormat		"Dataset"
+	RecToFileType		""
+	LogFixPtAsDouble	0
+      }
+      NumDataInputPorts	      1
+      DataInputPort {
+	RecordIdx		[5, 6, 0]
+      }
+      NumDataOutputPorts      0
+      NumDWork		      1
+      DWork {
+	RecordIdx		[5, 6, 0]
+	Name			"PWORK"
+      }
+      Parameters	      [0]
+    }
+    Block {
+      Type		      ToAsyncQueueBlock
+      Name		      "<S5>/TAQSigLogging_InsertedFor_Demux1_at_outport_16"
+      RecordType	      "CompiledBlock"
+      RecordIdx		      [5, 7]
+      BlockIdx		      [5, 5, 7]
+      TID		      1
+      ExecuteBlockFcns	      0
+      RollRegions	      [0]
+      NumPWorkDefines	      1
+      PWorkDefine {
+	Name			"AQHandles"
+	Width			1
+	StartIndex		0
+      }
+      ParamSettings {
+	uniqueId		[2470242132U]
+	InputSignalBlockPath	"Vehicle_Model_2Track/Extract and Save States/Demux1"
+	InputSignalPortIndex	[16]
+	InputSignalName		[""]
+	SignalSourceUUID	"3148c4f0-d627-4bcb-a141-5adafa546ea3"
+	IsContinuous		[0]
+	SupportsInProcAQs	[1]
+	IsVirtualBus		[0]
+	UseDESTimingEngine	-1
+	SignalUnits		[""]
+	UseUnitsFromBusObj	1
+	CustomBusDataTypeID	-1
+	SampleTimeLabels	["0.0001"]
+	IsMessageLine		0
+	Decimation		[1]
+	MaxPoints		[0]
+	LoggedName		""
+	OrigSignalName		""
+	PropName		""
+	NVBusLeafFullName	[""]
+	UseTgtConnForRaccel	[0]
+	DiscreteInterval	[0.0001]
+	RefRatePeriod		[0.0]
+	SignalDomain		""
+	ExportOrderIndex	[0]
+	CustomDims		[]
+	LogPowerDownEvent	0
+	BusHierDescIndex	[-1]
+	IsVMSim			0
+	IsBufferedLogging	0
+	IsFrameBased		0
+	HideInSDI		0
+	BlockPathDomain		0
+	VisualType		""
+	PortAQMapStartIdx	[]
+	NumAQs			1
+	UseTerminateFcn		0
+	RecToWksVarName		""
+	RecToWksFormat		"Dataset"
+	RecToFileType		""
+	LogFixPtAsDouble	0
+      }
+      NumDataInputPorts	      1
+      DataInputPort {
+	RecordIdx		[5, 7, 0]
+      }
+      NumDataOutputPorts      0
+      NumDWork		      1
+      DWork {
+	RecordIdx		[5, 7, 0]
+	Name			"PWORK"
+      }
+      Parameters	      [0]
+    }
+    Block {
+      Type		      ToAsyncQueueBlock
+      Name		      "<S5>/TAQSigLogging_InsertedFor_Demux1_at_outport_17"
+      RecordType	      "CompiledBlock"
+      RecordIdx		      [5, 8]
+      BlockIdx		      [5, 5, 8]
+      TID		      1
+      ExecuteBlockFcns	      0
+      RollRegions	      [0]
+      NumPWorkDefines	      1
+      PWorkDefine {
+	Name			"AQHandles"
+	Width			1
+	StartIndex		0
+      }
+      ParamSettings {
+	uniqueId		[983628314U]
+	InputSignalBlockPath	"Vehicle_Model_2Track/Extract and Save States/Demux1"
+	InputSignalPortIndex	[17]
+	InputSignalName		[""]
+	SignalSourceUUID	"889efa81-5c4d-4b7f-8562-7b9bf987becd"
+	IsContinuous		[0]
+	SupportsInProcAQs	[1]
+	IsVirtualBus		[0]
+	UseDESTimingEngine	-1
+	SignalUnits		[""]
+	UseUnitsFromBusObj	1
+	CustomBusDataTypeID	-1
+	SampleTimeLabels	["0.0001"]
+	IsMessageLine		0
+	Decimation		[1]
+	MaxPoints		[0]
+	LoggedName		""
+	OrigSignalName		""
+	PropName		""
+	NVBusLeafFullName	[""]
+	UseTgtConnForRaccel	[0]
+	DiscreteInterval	[0.0001]
+	RefRatePeriod		[0.0]
+	SignalDomain		""
+	ExportOrderIndex	[0]
+	CustomDims		[]
+	LogPowerDownEvent	0
+	BusHierDescIndex	[-1]
+	IsVMSim			0
+	IsBufferedLogging	0
+	IsFrameBased		0
+	HideInSDI		0
+	BlockPathDomain		0
+	VisualType		""
+	PortAQMapStartIdx	[]
+	NumAQs			1
+	UseTerminateFcn		0
+	RecToWksVarName		""
+	RecToWksFormat		"Dataset"
+	RecToFileType		""
+	LogFixPtAsDouble	0
+      }
+      NumDataInputPorts	      1
+      DataInputPort {
+	RecordIdx		[5, 8, 0]
+      }
+      NumDataOutputPorts      0
+      NumDWork		      1
+      DWork {
+	RecordIdx		[5, 8, 0]
+	Name			"PWORK"
+      }
+      Parameters	      [0]
+    }
+    Block {
+      Type		      ToAsyncQueueBlock
+      Name		      "<S5>/TAQSigLogging_InsertedFor_Demux1_at_outport_18"
+      RecordType	      "CompiledBlock"
+      RecordIdx		      [5, 9]
+      BlockIdx		      [5, 5, 9]
+      TID		      1
+      ExecuteBlockFcns	      0
+      RollRegions	      [0]
+      NumPWorkDefines	      1
+      PWorkDefine {
+	Name			"AQHandles"
+	Width			1
+	StartIndex		0
+      }
+      ParamSettings {
+	uniqueId		[1363030747U]
+	InputSignalBlockPath	"Vehicle_Model_2Track/Extract and Save States/Demux1"
+	InputSignalPortIndex	[18]
+	InputSignalName		[""]
+	SignalSourceUUID	"375e4be7-ed3c-4cfa-bbcd-90233fb8d07c"
+	IsContinuous		[0]
+	SupportsInProcAQs	[1]
+	IsVirtualBus		[0]
+	UseDESTimingEngine	-1
+	SignalUnits		[""]
+	UseUnitsFromBusObj	1
+	CustomBusDataTypeID	-1
+	SampleTimeLabels	["0.0001"]
+	IsMessageLine		0
+	Decimation		[1]
+	MaxPoints		[0]
+	LoggedName		""
+	OrigSignalName		""
+	PropName		""
+	NVBusLeafFullName	[""]
+	UseTgtConnForRaccel	[0]
+	DiscreteInterval	[0.0001]
+	RefRatePeriod		[0.0]
+	SignalDomain		""
+	ExportOrderIndex	[0]
+	CustomDims		[]
+	LogPowerDownEvent	0
+	BusHierDescIndex	[-1]
+	IsVMSim			0
+	IsBufferedLogging	0
+	IsFrameBased		0
+	HideInSDI		0
+	BlockPathDomain		0
+	VisualType		""
+	PortAQMapStartIdx	[]
+	NumAQs			1
+	UseTerminateFcn		0
+	RecToWksVarName		""
+	RecToWksFormat		"Dataset"
+	RecToFileType		""
+	LogFixPtAsDouble	0
+      }
+      NumDataInputPorts	      1
+      DataInputPort {
+	RecordIdx		[5, 9, 0]
+      }
+      NumDataOutputPorts      0
+      NumDWork		      1
+      DWork {
+	RecordIdx		[5, 9, 0]
+	Name			"PWORK"
+      }
+      Parameters	      [0]
+    }
+    Block {
+      Type		      ToAsyncQueueBlock
+      Name		      "<S5>/TAQSigLogging_InsertedFor_Demux1_at_outport_3"
+      RecordType	      "CompiledBlock"
+      RecordIdx		      [5, 10]
+      BlockIdx		      [5, 5, 10]
+      TID		      1
+      ExecuteBlockFcns	      0
+      RollRegions	      [0]
+      NumPWorkDefines	      1
+      PWorkDefine {
+	Name			"AQHandles"
+	Width			1
+	StartIndex		0
+      }
+      ParamSettings {
+	uniqueId		[3874451395U]
+	InputSignalBlockPath	"Vehicle_Model_2Track/Extract and Save States/Demux1"
+	InputSignalPortIndex	[3]
+	InputSignalName		["u"]
+	SignalSourceUUID	"bc6dc415-f8ec-423d-a5a8-bc20f1edf6e0"
+	IsContinuous		[0]
+	SupportsInProcAQs	[1]
+	IsVirtualBus		[0]
+	UseDESTimingEngine	-1
+	SignalUnits		[""]
+	UseUnitsFromBusObj	1
+	CustomBusDataTypeID	-1
+	SampleTimeLabels	["0.0001"]
+	IsMessageLine		0
+	Decimation		[1]
+	MaxPoints		[0]
+	LoggedName		"u"
+	OrigSignalName		"u"
+	PropName		""
+	NVBusLeafFullName	[""]
+	UseTgtConnForRaccel	[0]
+	DiscreteInterval	[0.0001]
+	RefRatePeriod		[0.0]
+	SignalDomain		""
+	ExportOrderIndex	[0]
+	CustomDims		[]
+	LogPowerDownEvent	0
+	BusHierDescIndex	[-1]
+	IsVMSim			0
+	IsBufferedLogging	0
+	IsFrameBased		0
+	HideInSDI		0
+	BlockPathDomain		0
+	VisualType		""
+	PortAQMapStartIdx	[]
+	NumAQs			1
+	UseTerminateFcn		0
+	RecToWksVarName		""
+	RecToWksFormat		"Dataset"
+	RecToFileType		""
+	LogFixPtAsDouble	0
+      }
+      NumDataInputPorts	      1
+      DataInputPort {
+	RecordIdx		[5, 10, 0]
+      }
+      NumDataOutputPorts      0
+      NumDWork		      1
+      DWork {
+	RecordIdx		[5, 10, 0]
+	Name			"PWORK"
+      }
+      Parameters	      [0]
+    }
+    Block {
+      Type		      ToAsyncQueueBlock
+      Name		      "<S5>/_asyncqueue_inserted_for_To Workspace"
+      RecordType	      "CompiledBlock"
+      RecordIdx		      [5, 11]
+      BlockIdx		      [5, 5, 11]
+      TID		      1
+      ExecuteBlockFcns	      0
+      RollRegions	      [0]
+      NumPWorkDefines	      1
+      PWorkDefine {
+	Name			"AQHandles"
+	Width			23
+	StartIndex		0
+      }
+      ParamSettings {
+	uniqueId		Vector(23)
+[1271297326U, 2461289256U, 1791740173U, 2248413472U, 3440794099U, 1868261765U, 211035078U, 3441550283U, 942959625U, ...
+3190693950U, 197273727U, 979551156U, 251317346U, 4074885677U, 1387769688U, 2614107994U, 1615144717U, 1198965421U, ...
+323656685U, 3661487605U, 2542148279U, 1183225203U, 218799497U]
+	InputSignalBlockPath	"Vehicle_Model_2Track/Extract and Save States/To Workspace"
+	InputSignalPortIndex	[0]
+	InputSignalName		Vector(23)
+[".x", ".y", ".psi", ".u", ".v", ".Omega", ".Fz_rr", ".Fz_rl", ".Fz_fr", ".Fz_fl", ".delta", ".omega_rr", ".omega_rl", ".omega_fr", ".omega_fl", ".alpha_rr", ".alpha_rl", ".alpha_fr", ".alpha_fl", ".kappa_rr", ".kappa_rl", ".kappa_fr", ".kappa_fl"]
+	SignalSourceUUID	"c7c0adb1-2686-4da2-8918-5631522c0e34"
+	IsContinuous		[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+	SupportsInProcAQs	[1]
+	IsVirtualBus		[1]
+	UseDESTimingEngine	-1
+	SignalUnits		["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+	UseUnitsFromBusObj	1
+	CustomBusDataTypeID	-1
+	SampleTimeLabels	Vector(23)
+["0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001"]
+	IsMessageLine		0
+	Decimation		[1]
+	MaxPoints		[0]
+	LoggedName		"Bus\nCreator1"
+	OrigSignalName		""
+	PropName		"Bus\nCreator1"
+	NVBusLeafFullName	[""]
+	UseTgtConnForRaccel	[0]
+	DiscreteInterval	Vector(23)
+[0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, ...
+0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001]
+	RefRatePeriod		Vector(23)
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+	SignalDomain		""
+	ExportOrderIndex	[0]
+	CustomDims		[]
+	LogPowerDownEvent	0
+	BusHierDescIndex	[-1]
+	IsVMSim			0
+	IsBufferedLogging	0
+	IsFrameBased		0
+	HideInSDI		0
+	BlockPathDomain		1
+	VisualType		""
+	PortAQMapStartIdx	[]
+	NumAQs			23
+	UseTerminateFcn		0
+	RecToWksVarName		"states"
+	RecToWksFormat		"timeseries"
+	RecToFileType		""
+	LogFixPtAsDouble	0
+      }
+      NumDataInputPorts	      23
+      DataInputPort {
+	RecordIdx		[5, 11, 0]
+      }
+      DataInputPort {
+	RecordIdx		[5, 11, 1]
+      }
+      DataInputPort {
+	RecordIdx		[5, 11, 2]
+      }
+      DataInputPort {
+	RecordIdx		[5, 11, 3]
+      }
+      DataInputPort {
+	RecordIdx		[5, 11, 4]
+      }
+      DataInputPort {
+	RecordIdx		[5, 11, 5]
+      }
+      DataInputPort {
+	RecordIdx		[5, 11, 6]
+      }
+      DataInputPort {
+	RecordIdx		[5, 11, 7]
+      }
+      DataInputPort {
+	RecordIdx		[5, 11, 8]
+      }
+      DataInputPort {
+	RecordIdx		[5, 11, 9]
+      }
+      DataInputPort {
+	RecordIdx		[5, 11, 10]
+      }
+      DataInputPort {
+	RecordIdx		[5, 11, 11]
+      }
+      DataInputPort {
+	RecordIdx		[5, 11, 12]
+      }
+      DataInputPort {
+	RecordIdx		[5, 11, 13]
+      }
+      DataInputPort {
+	RecordIdx		[5, 11, 14]
+      }
+      DataInputPort {
+	RecordIdx		[5, 11, 15]
+      }
+      DataInputPort {
+	RecordIdx		[5, 11, 16]
+      }
+      DataInputPort {
+	RecordIdx		[5, 11, 17]
+      }
+      DataInputPort {
+	RecordIdx		[5, 11, 18]
+      }
+      DataInputPort {
+	RecordIdx		[5, 11, 19]
+      }
+      DataInputPort {
+	RecordIdx		[5, 11, 20]
+      }
+      DataInputPort {
+	RecordIdx		[5, 11, 21]
+      }
+      DataInputPort {
+	RecordIdx		[5, 11, 22]
+      }
+      NumDataOutputPorts      0
+      NumDWork		      1
+      DWork {
+	RecordIdx		[5, 11, 0]
+	Name			"PWORK"
+      }
+      Parameters	      [0]
+    }
+    Block {
+      Type		      SubSystem
+      Name		      "<Root>/Vehicle Model"
+      RecordType	      "CompiledBlock"
+      RecordIdx		      [5, 12]
+      BlockIdx		      [5, 4, 12]
+      TID		      Subsystem
+      ExecuteBlockFcns	      0
+      MaskType		      ""
+      NumDataInputPorts	      0
+      NumDataOutputPorts      0
+      NumDWork		      0
+      Parameters	      [0]
+    }
+    Block {
+      Type		      ToAsyncQueueBlock
+      Name		      "<S7>/_asyncqueue_inserted_for_To Workspace2"
+      RecordType	      "CompiledBlock"
+      RecordIdx		      [5, 13]
+      BlockIdx		      [5, 5, 13]
+      TID		      1
+      ExecuteBlockFcns	      0
+      RollRegions	      [0]
+      NumPWorkDefines	      1
+      PWorkDefine {
+	Name			"AQHandles"
+	Width			23
+	StartIndex		0
+      }
+      ParamSettings {
+	uniqueId		Vector(23)
+[3261458366U, 4181247477U, 4196954548U, 4218276132U, 705531791U, 330731383U, 2630406196U, 3783963050U, 3367419285U, ...
+3980348092U, 2942120374U, 1271740117U, 780082675U, 1811327709U, 3085631439U, 3425888051U, 1477719049U, 2271819182U, ...
+152033272U, 232531849U, 19658842U, 644312974U, 2843411345U]
+	InputSignalBlockPath	"Vehicle_Model_2Track/Params To Workspace/To Workspace2"
+	InputSignalPortIndex	[0]
+	InputSignalName		Vector(23)
+[".Tw_rr", ".Tw_rl", ".Tw_fr", ".Tw_fl", ".Fx_rr", ".Fx_rl", ".Fx_fr", ".Fx_fl", ".Fy_rr", ".Fy_rl", ".Fy_fr", ".Fy_fl", ".Mz_rr", ".Mz_rl", ".Mz_fr", ".Mz_fl", ".gamma_rr", ".gamma_rl", ".gamma_fr", ".gamma_fl", ".delta_fr", ".delta_fl", ".delta_SW"]
+	SignalSourceUUID	"1f0ace4a-eddb-40f1-9ec7-d89bb8ac96b0"
+	IsContinuous		[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+	SupportsInProcAQs	[1]
+	IsVirtualBus		[1]
+	UseDESTimingEngine	-1
+	SignalUnits		["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+	UseUnitsFromBusObj	1
+	CustomBusDataTypeID	-1
+	SampleTimeLabels	Vector(23)
+["0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001", "0.0001"]
+	IsMessageLine		0
+	Decimation		[1]
+	MaxPoints		[0]
+	LoggedName		"Bus\nCreator2"
+	OrigSignalName		""
+	PropName		"Bus\nCreator2"
+	NVBusLeafFullName	[""]
+	UseTgtConnForRaccel	[0]
+	DiscreteInterval	Vector(23)
+[0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, ...
+0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001]
+	RefRatePeriod		Vector(23)
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+	SignalDomain		""
+	ExportOrderIndex	[0]
+	CustomDims		[]
+	LogPowerDownEvent	0
+	BusHierDescIndex	[-1]
+	IsVMSim			0
+	IsBufferedLogging	0
+	IsFrameBased		0
+	HideInSDI		0
+	BlockPathDomain		1
+	VisualType		""
+	PortAQMapStartIdx	[]
+	NumAQs			23
+	UseTerminateFcn		0
+	RecToWksVarName		"extra_params"
+	RecToWksFormat		"timeseries"
+	RecToFileType		""
+	LogFixPtAsDouble	0
+      }
+      NumDataInputPorts	      23
+      DataInputPort {
+	RecordIdx		[5, 13, 0]
+      }
+      DataInputPort {
+	RecordIdx		[5, 13, 1]
+      }
+      DataInputPort {
+	RecordIdx		[5, 13, 2]
+      }
+      DataInputPort {
+	RecordIdx		[5, 13, 3]
+      }
+      DataInputPort {
+	RecordIdx		[5, 13, 4]
+      }
+      DataInputPort {
+	RecordIdx		[5, 13, 5]
+      }
+      DataInputPort {
+	RecordIdx		[5, 13, 6]
+      }
+      DataInputPort {
+	RecordIdx		[5, 13, 7]
+      }
+      DataInputPort {
+	RecordIdx		[5, 13, 8]
+      }
+      DataInputPort {
+	RecordIdx		[5, 13, 9]
+      }
+      DataInputPort {
+	RecordIdx		[5, 13, 10]
+      }
+      DataInputPort {
+	RecordIdx		[5, 13, 11]
+      }
+      DataInputPort {
+	RecordIdx		[5, 13, 12]
+      }
+      DataInputPort {
+	RecordIdx		[5, 13, 13]
+      }
+      DataInputPort {
+	RecordIdx		[5, 13, 14]
+      }
+      DataInputPort {
+	RecordIdx		[5, 13, 15]
+      }
+      DataInputPort {
+	RecordIdx		[5, 13, 16]
+      }
+      DataInputPort {
+	RecordIdx		[5, 13, 17]
+      }
+      DataInputPort {
+	RecordIdx		[5, 13, 18]
+      }
+      DataInputPort {
+	RecordIdx		[5, 13, 19]
+      }
+      DataInputPort {
+	RecordIdx		[5, 13, 20]
+      }
+      DataInputPort {
+	RecordIdx		[5, 13, 21]
+      }
+      DataInputPort {
+	RecordIdx		[5, 13, 22]
+      }
+      NumDataOutputPorts      0
+      NumDWork		      1
+      DWork {
+	RecordIdx		[5, 13, 0]
+	Name			"PWORK"
+      }
+      Parameters	      [0]
+    }
+    Block {
+      Type		      ToAsyncQueueBlock
+      Name		      "<S10>/TAQSigLogging_InsertedFor_IMU_at_outport_0"
+      RecordType	      "CompiledBlock"
+      RecordIdx		      [5, 14]
+      BlockIdx		      [5, 5, 14]
+      TID		      1
+      ExecuteBlockFcns	      0
+      RollRegions	      [0]
+      NumPWorkDefines	      1
+      PWorkDefine {
+	Name			"AQHandles"
+	Width			3
+	StartIndex		0
+      }
+      ParamSettings {
+	uniqueId		[3364255681U, 4179495113U, 1955399129U]
+	InputSignalBlockPath	"Vehicle_Model_2Track/Subsystem/IMU"
+	InputSignalPortIndex	[0]
+	InputSignalName		[".a_x", ".a_y", ".Omega"]
+	SignalSourceUUID	"86ebf007-2432-4058-8107-813b882e8197"
+	IsContinuous		[0, 0, 0]
+	SupportsInProcAQs	[1]
+	IsVirtualBus		[1]
+	UseDESTimingEngine	-1
+	SignalUnits		["", "", ""]
+	UseUnitsFromBusObj	1
+	CustomBusDataTypeID	-1
+	SampleTimeLabels	["0.0001", "0.0001", "0.0001"]
+	IsMessageLine		0
+	Decimation		[1]
+	MaxPoints		[0]
+	LoggedName		""
+	OrigSignalName		""
+	PropName		""
+	NVBusLeafFullName	[""]
+	UseTgtConnForRaccel	[0]
+	DiscreteInterval	[0.0001, 0.0001, 0.0001]
+	RefRatePeriod		[0.0, 0.0, 0.0]
+	SignalDomain		""
+	ExportOrderIndex	[0]
+	CustomDims		[]
+	LogPowerDownEvent	0
+	BusHierDescIndex	[-1]
+	IsVMSim			0
+	IsBufferedLogging	0
+	IsFrameBased		0
+	HideInSDI		0
+	BlockPathDomain		0
+	VisualType		""
+	PortAQMapStartIdx	[]
+	NumAQs			3
+	UseTerminateFcn		0
+	RecToWksVarName		""
+	RecToWksFormat		"Dataset"
+	RecToFileType		""
+	LogFixPtAsDouble	0
+      }
+      NumDataInputPorts	      3
+      DataInputPort {
+	RecordIdx		[5, 14, 0]
+      }
+      DataInputPort {
+	RecordIdx		[5, 14, 1]
+      }
+      DataInputPort {
+	RecordIdx		[5, 14, 2]
+      }
+      NumDataOutputPorts      0
+      NumDWork		      1
+      DWork {
+	RecordIdx		[5, 14, 0]
+	Name			"PWORK"
+      }
+      Parameters	      [0]
+    }
+    Block {
+      Type		      ToAsyncQueueBlock
+      Name		      "<S10>/TAQSigLogging_InsertedFor_Bus Selector1_at_outport_0"
+      SLName		      "<S10>/TAQSigLogging_InsertedFor_Bus\nSelector1_at_outport_0"
+      RecordType	      "CompiledBlock"
+      RecordIdx		      [5, 15]
+      BlockIdx		      [5, 5, 15]
+      TID		      1
+      ExecuteBlockFcns	      0
+      RollRegions	      [0]
+      NumPWorkDefines	      1
+      PWorkDefine {
+	Name			"AQHandles"
+	Width			5
+	StartIndex		0
+      }
+      ParamSettings {
+	uniqueId		[1752331620U, 3325350605U, 4175914837U, 675368196U, 1993053948U]
+	InputSignalBlockPath	"Vehicle_Model_2Track/Subsystem/Bus Selector1"
+	InputSignalPortIndex	[0]
+	InputSignalName		[".delta_SW", ".Tw_rr", ".Tw_rl", ".Tw_fr", ".Tw_fl"]
+	SignalSourceUUID	"753afd67-483f-4504-a1af-d3f25979d5d5"
+	IsContinuous		[1, 1, 1, 1, 1]
+	SupportsInProcAQs	[1]
+	IsVirtualBus		[1]
+	UseDESTimingEngine	-1
+	SignalUnits		["", "", "", "", ""]
+	UseUnitsFromBusObj	1
+	CustomBusDataTypeID	-1
+	SampleTimeLabels	["0.0001", "0.0001", "0.0001", "0.0001", "0.0001"]
+	IsMessageLine		0
+	Decimation		[1]
+	MaxPoints		[0]
+	LoggedName		""
+	OrigSignalName		""
+	PropName		""
+	NVBusLeafFullName	[""]
+	UseTgtConnForRaccel	[0]
+	DiscreteInterval	[0.0001, 0.0001, 0.0001, 0.0001, 0.0001]
+	RefRatePeriod		[0.0, 0.0, 0.0, 0.0, 0.0]
+	SignalDomain		""
+	ExportOrderIndex	[0]
+	CustomDims		[]
+	LogPowerDownEvent	0
+	BusHierDescIndex	[-1]
+	IsVMSim			0
+	IsBufferedLogging	0
+	IsFrameBased		0
+	HideInSDI		0
+	BlockPathDomain		0
+	VisualType		""
+	PortAQMapStartIdx	[]
+	NumAQs			5
+	UseTerminateFcn		0
+	RecToWksVarName		""
+	RecToWksFormat		"Dataset"
+	RecToFileType		""
+	LogFixPtAsDouble	0
+      }
+      NumDataInputPorts	      5
+      DataInputPort {
+	RecordIdx		[5, 15, 0]
+      }
+      DataInputPort {
+	RecordIdx		[5, 15, 1]
+      }
+      DataInputPort {
+	RecordIdx		[5, 15, 2]
+      }
+      DataInputPort {
+	RecordIdx		[5, 15, 3]
+      }
+      DataInputPort {
+	RecordIdx		[5, 15, 4]
+      }
+      NumDataOutputPorts      0
+      NumDWork		      1
+      DWork {
+	RecordIdx		[5, 15, 0]
+	Name			"PWORK"
+      }
+      Parameters	      [0]
+    }
+    Block {
+      Type		      Constant
+      Name		      "<S2>/Constant"
+      RecordType	      "CompiledBlock"
+      RecordIdx		      [5, 16]
+      BlockIdx		      [5, 5, 16]
+      TID		      2
+      ExecuteBlockFcns	      0
+      NumDataInputPorts	      0
+      NumDataOutputPorts      1
+      DataOutputPort {
+	RecordIdx		[5, 16, 0]
+      }
+      NumDWork		      0
+      Parameters	      [1]
+      Parameter {
+	BlockParamIdx		0
+	Name			"Value"
+	RecordIdx		[5, 16, 0]
+	Value			[0.0]
+      }
+      Value		      Parameter[0]
+    }
+    Block {
+      Type		      Constant
+      Name		      "<S2>/Constant1"
+      RecordType	      "CompiledBlock"
+      RecordIdx		      [5, 17]
+      BlockIdx		      [5, 5, 17]
+      TID		      2
+      ExecuteBlockFcns	      0
+      NumDataInputPorts	      0
+      NumDataOutputPorts      1
+      DataOutputPort {
+	RecordIdx		[5, 17, 0]
+      }
+      NumDWork		      0
+      Parameters	      [1]
+      Parameter {
+	BlockParamIdx		0
+	Name			"Value"
+	RecordIdx		[5, 17, 0]
+	Value			[0.0]
+      }
+      Value		      Parameter[0]
+    }
+    Block {
+      Type		      Constant
+      Name		      "<Root>/Constant"
+      RecordType	      "CompiledBlock"
+      RecordIdx		      [5, 18]
+      BlockIdx		      [5, 5, 18]
+      TID		      2
+      ExecuteBlockFcns	      0
+      NumDataInputPorts	      0
+      NumDataOutputPorts      1
+      DataOutputPort {
+	RecordIdx		[5, 18, 0]
+      }
+      NumDWork		      0
+      Parameters	      [1]
+      Parameter {
+	BlockParamIdx		0
+	Name			"Value"
+	RecordIdx		[5, 18, 0]
+	Value			[18.055555555555554]
+      }
+      Value		      Parameter[0]
+    }
+    Block {
+      Type		      Constant
+      Name		      "<Root>/Constant1"
+      RecordType	      "CompiledBlock"
+      RecordIdx		      [5, 19]
+      BlockIdx		      [5, 5, 19]
+      TID		      2
+      ExecuteBlockFcns	      0
+      NumDataInputPorts	      0
+      NumDataOutputPorts      1
+      DataOutputPort {
+	RecordIdx		[5, 19, 0]
+      }
+      NumDWork		      0
+      Parameters	      [1]
+      Parameter {
+	BlockParamIdx		0
+	Name			"Value"
+	RecordIdx		[5, 19, 0]
+	Value			[0.0]
+      }
+      Value		      Parameter[0]
+    }
+    Block {
+      Type		      Constant
+      Name		      "<S8>/Constant"
+      RecordType	      "CompiledBlock"
+      RecordIdx		      [5, 20]
+      BlockIdx		      [5, 5, 20]
+      TID		      2
+      ExecuteBlockFcns	      0
+      NumDataInputPorts	      0
+      NumDataOutputPorts      1
+      DataOutputPort {
+	RecordIdx		[5, 20, 0]
+      }
+      NumDWork		      0
+      Parameters	      [1]
+      Parameter {
+	BlockParamIdx		0
+	Name			"Value"
+	RecordIdx		[5, 20, 0]
+	Value			[0.0]
+      }
+      Value		      Parameter[0]
+    }
+    Block {
+      Type		      Constant
+      Name		      "<S8>/Constant1"
+      RecordType	      "CompiledBlock"
+      RecordIdx		      [5, 21]
+      BlockIdx		      [5, 5, 21]
+      TID		      2
+      ExecuteBlockFcns	      0
+      NumDataInputPorts	      0
+      NumDataOutputPorts      1
+      DataOutputPort {
+	RecordIdx		[5, 21, 0]
+      }
+      NumDWork		      0
+      Parameters	      [1]
+      Parameter {
+	BlockParamIdx		0
+	Name			"Value"
+	RecordIdx		[5, 21, 0]
+	Value			[2.7777777777777777]
+      }
+      Value		      Parameter[0]
+    }
+    Block {
+      Type		      Constant
+      Name		      "<S9>/Constant"
+      RecordType	      "CompiledBlock"
+      RecordIdx		      [5, 22]
+      BlockIdx		      [5, 5, 22]
+      TID		      2
+      ExecuteBlockFcns	      0
+      NumDataInputPorts	      0
+      NumDataOutputPorts      1
+      DataOutputPort {
+	RecordIdx		[5, 22, 0]
+      }
+      NumDWork		      0
+      Parameters	      [1]
+      Parameter {
+	BlockParamIdx		0
+	Name			"Value"
+	RecordIdx		[5, 22, 0]
+	Value			[0.0]
+      }
+      Value		      Parameter[0]
+    }
+    Block {
+      Type		      Constant
+      Name		      "<S9>/Constant1"
+      RecordType	      "CompiledBlock"
+      RecordIdx		      [5, 23]
+      BlockIdx		      [5, 5, 23]
+      TID		      2
+      ExecuteBlockFcns	      0
+      NumDataInputPorts	      0
+      NumDataOutputPorts      1
+      DataOutputPort {
+	RecordIdx		[5, 23, 0]
+      }
+      NumDWork		      0
+      Parameters	      [1]
+      Parameter {
+	BlockParamIdx		0
+	Name			"Value"
+	RecordIdx		[5, 23, 0]
+	Value			[0.0]
+      }
+      Value		      Parameter[0]
+    }
+  }
+}

@@ -1,5 +1,5 @@
 % ----------------------------------------------------------------
-%% Main script for a basic simulation framework with a double track vehicle model
+%% Main script for a basic simulation framework with a double track vehcile model
 %  authors: 
 %  rev. 1.0 Mattia Piccinini & Gastone Pietro Papini Rosati
 %  rev. 2.0 Edoardo Pagot
@@ -18,11 +18,6 @@
 initialize_environment;
 
 % ----------------------------
-% Set LaTeX as default interpreter for axis labels, ticks and legends
-set(0,'defaulttextinterpreter','latex')
-set(groot, 'defaultAxesTickLabelInterpreter','latex');
-set(groot, 'defaultLegendInterpreter','latex');
-% ----------------------------
 %% Load vehicle data
 % ----------------------------
 
@@ -33,55 +28,28 @@ vehicle_data = getVehicleDataStruct();
 % pacejkaParam = loadPacejkaParam();
 
 % ----------------------------
-%% Define initial conditions for the simulation and the type of test
+%% Define initial conditions for the simulation
 % ----------------------------
-% Description:
- % - the simulation time is increased: Tf = 180s for better plotting
- % purposes
- % - if test_type = 1 -> speed ramp test at constant steering angle (SpRT)
- % - if test_type = 2 -> steer ramp test at constant speed (StRT)
-
-Vf = 95/3.6; % [m/s]
-t1 = 1;
-t1_trans_steer = 0.5;
-t1_trans_ramp_steer = 15;
-
-deltaH_fin = 25; % [deg]
-const_steer_angle = 15; % [deg]
-const_des_speed = 70/3.6; % [m/s]
-test_type = 1; % 1 = SpRT with const steer, 2 = StRT with const speed;
-
-if(test_type==1)
-     %proportional=0.0149079382355932;
-     %integral=0.209186882089226;
-     %derivative=0.206343298118274;
-     %filter_coeff=2.92564365922541;
-
-     Vi = 5/3.6; % Initial speed
-     X0 = loadInitialConditions(Vi);
- elseif(test_type==2)
-     %proportional=0.0135879338655985;
-     %integral=0.00180259308311908;
-     %derivative=-0.000759112239547322;
-     %filter_coeff=17.8997691747157;
-
-     Vi = 30/3.6; % Initial speed
-     X0 = loadInitialConditions(Vi);
- end
-
+V0 = 0; % Initial speed
+X0 = loadInitialConditions(V0);
+VF = 150/3.6; % Target speed
+V_const = 60/3.6;
+V_slope = 0.2;
+Const_DeltaH = 30; % Steering angle for constant steering angle test
+DeltaH0 = 0; % Initial steering angle for constant speed test
+DeltaHF = 20; % Final steering angle for constant speed test
+Test_ = 0; % Constant steering-> Test_<=0 Constant speed-> Test_>0
 % ----------------------------
 %% Simulation parameters
 % ----------------------------
 simulationPars = getSimulationParams(); 
-Ts = simulationPars.times.step_size;  % integration step for the simulation (fixed step)
+Ts = 1e-3;  % integration step for the simulation (fixed step)
 T0 = simulationPars.times.t0;         % starting time of the simulation
-
-if(test_type==1)
-     Tf = 200;         % stop time of the simulation
-elseif(test_type==2)
-     Tf = 80;
+if Test_ <= 0
+    Tf = 115.5;         % stop time of the simulation
+else
+    Tf = 63;
 end
-
 % ----------------------------
 %% Start Simulation
 % ----------------------------
@@ -95,10 +63,21 @@ fprintf('The total simulation time was %.2f seconds\n',elapsed_time_simulation)
 % ----------------------------
 %% Post-Processing
 % ----------------------------
-dataAnalysis(model_sim,vehicle_data,Ts, test_type);
-% vehicleAnimation(model_sim,vehicle_data,Ts); # Useless
-suspensionsEffect(vehicle_data, Ts, Tf);
+dataAnalysis(model_sim,vehicle_data,Ts,Test_);
+%%
+if Test_ <= 0
+clc
+Tf = 90;
+suspensions(vehicle_data,Ts,Tf);
+%
 vehicle_data = getVehicleDataStruct();
-toeEffect(vehicle_data,Ts,Tf);
+toe(vehicle_data,Ts,Tf);
+%
 vehicle_data = getVehicleDataStruct();
-camberEffect(vehicle_data,Ts,Tf); 
+camber_front(vehicle_data,Ts,Tf);
+%
+vehicle_data = getVehicleDataStruct();
+camber_rear(vehicle_data,Ts,Tf);
+end
+%vehicleAnimation(model_sim,vehicle_data,Ts);
+
